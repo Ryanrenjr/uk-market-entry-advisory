@@ -1,0 +1,62 @@
+{
+  "Metadata": {
+    "titleDefault": "LeoVisa | 英国市场进入与企业落地顾问",
+    "titleTemplate": "%s | LeoVisa",
+    "description": "帮助中国企业验证英国市场，并真正落地英国。"
+  },
+  "Nav": {
+    "services": "服务",
+    "howWeWork": "服务流程",
+    "insights": "洞察",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "cta": "预约咨询"
+  },
+  "LanguageSwitcher": {
+    "label": "语言",
+    "en": "EN",
+    "zh": "中文"
+  },
+  "Footer": {
+    "tagline": "我们以严谨、专业的市场进入顾问方法，帮助中国企业验证英国市场，并真正落地英国。",
+    "quickLinks": "快速链接",
+    "contact": "联系方式",
+    "email": "hello@leovisa.co.uk",
+    "location": "英国 · 伦敦",
+    "rights": "© {year} LeoVisa. 保留所有权利。"
+  },
+  "HomePage": {
+    "eyebrow": "英国市场进入顾问",
+    "title": "帮助中国企业验证英国市场，并真正落地英国。",
+    "description": "从市场验证到法律实体落地，我们协助中国制造商与品牌企业，稳健地在英国建立可信、可持续的业务。",
+    "primaryCta": "预约咨询",
+    "secondaryCta": "查看我们的服务"
+  },
+  "ServicesPage": {
+    "eyebrow": "服务",
+    "title": "覆盖英国市场进入各阶段的专业服务。",
+    "description": "关于市场验证、进入与落地服务的完整介绍正在建设中。"
+  },
+  "HowWeWorkPage": {
+    "eyebrow": "服务流程",
+    "title": "严谨的方法论，而非一次性项目。",
+    "description": "我们正在整理从市场验证到企业在英国完全落地的完整工作方法。"
+  },
+  "InsightsPage": {
+    "eyebrow": "洞察",
+    "title": "面向决策者的英国市场洞察。",
+    "description": "关于英国市场进入、监管与品牌定位的洞察内容即将发布。"
+  },
+  "AboutPage": {
+    "eyebrow": "关于我们",
+    "title": "一支深耕英国市场的专业顾问团队。",
+    "description": "关于团队、方法论与过往业绩的详细介绍正在准备中。"
+  },
+  "ContactPage": {
+    "eyebrow": "联系我们",
+    "title": "从一次保密沟通开始。",
+    "description": "与我们顾问团队直接联系的方式即将在此提供。",
+    "email": "hello@leovisa.co.uk",
+    "emailCta": "发送邮件"
+  }
+}

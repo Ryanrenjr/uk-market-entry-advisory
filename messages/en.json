@@ -1,0 +1,62 @@
+{
+  "Metadata": {
+    "titleDefault": "LeoVisa | UK Market Entry Advisory",
+    "titleTemplate": "%s | LeoVisa",
+    "description": "We help Chinese businesses test, enter and establish in the UK."
+  },
+  "Nav": {
+    "services": "Services",
+    "howWeWork": "How We Work",
+    "insights": "Insights",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Book a Consultation"
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "en": "EN",
+    "zh": "中文"
+  },
+  "Footer": {
+    "tagline": "We help Chinese businesses test, enter and establish in the UK — with the clarity and rigour of a trusted market entry advisory.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "email": "hello@leovisa.co.uk",
+    "location": "London, United Kingdom",
+    "rights": "© {year} LeoVisa. All rights reserved."
+  },
+  "HomePage": {
+    "eyebrow": "UK Market Entry Advisory",
+    "title": "We help Chinese businesses test, enter and establish in the UK.",
+    "description": "From market validation to legal presence, we guide Chinese manufacturers and brands through every stage of building a credible, lasting business in the United Kingdom.",
+    "primaryCta": "Book a Consultation",
+    "secondaryCta": "View Our Services"
+  },
+  "ServicesPage": {
+    "eyebrow": "Services",
+    "title": "Advisory built for every stage of UK market entry.",
+    "description": "A structured overview of our market testing, entry and establishment services is currently in development."
+  },
+  "HowWeWorkPage": {
+    "eyebrow": "How We Work",
+    "title": "A disciplined process, not a one-off engagement.",
+    "description": "We are documenting the methodology behind how we take clients from initial validation through to a fully established UK presence."
+  },
+  "InsightsPage": {
+    "eyebrow": "Insights",
+    "title": "Perspective on the UK market, written for decision-makers.",
+    "description": "Our insights on UK market entry, regulation and brand positioning will be published here."
+  },
+  "AboutPage": {
+    "eyebrow": "About",
+    "title": "An advisory team built on UK market expertise.",
+    "description": "Details on our team, philosophy and track record are being prepared."
+  },
+  "ContactPage": {
+    "eyebrow": "Contact",
+    "title": "Start with a confidential conversation.",
+    "description": "A direct way to reach our advisory team will be available here shortly.",
+    "email": "hello@leovisa.co.uk",
+    "emailCta": "Email Us"
+  }
+}
