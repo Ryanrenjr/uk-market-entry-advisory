@@ -24,7 +24,7 @@ export default function LanguageSwitcher() {
       className="flex items-center gap-1.5 text-sm"
       aria-label={t("label")}
     >
-      <Languages className="h-4 w-4 text-primary-dark/40" aria-hidden />
+      <Languages className="h-4 w-4 text-primary-dark/50" aria-hidden />
       {routing.locales.map((loc, index) => (
         <span key={loc} className="flex items-center">
           {index > 0 && <span className="mx-1 text-primary-dark/20">/</span>}
@@ -33,11 +33,11 @@ export default function LanguageSwitcher() {
             onClick={() => handleChange(loc)}
             disabled={isPending}
             aria-current={locale === loc}
-            className={
+            className={`rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
               locale === loc
                 ? "font-semibold text-primary-dark"
-                : "text-primary-dark/45 transition-colors hover:text-primary-dark"
-            }
+                : "text-primary-dark/60 transition-colors hover:text-primary-dark"
+            }`}
           >
             {t(loc)}
           </button>

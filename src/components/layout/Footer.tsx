@@ -16,7 +16,7 @@ export default async function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-primary-dark/10 bg-primary-dark text-white/70">
+    <footer className="border-t border-primary-dark/8 bg-primary-dark text-white/70">
       <Container className="grid gap-12 py-16 sm:grid-cols-2 lg:grid-cols-4">
         <div className="sm:col-span-2 lg:col-span-2">
           <p className="text-base font-semibold text-white">LeoVisa</p>
@@ -26,7 +26,7 @@ export default async function Footer() {
         </div>
 
         <div>
-          <p className="text-sm font-medium text-white">{t("quickLinks")}</p>
+          <p className="text-eyebrow uppercase text-white/50">{t("quickLinks")}</p>
           <ul className="mt-4 space-y-3">
             {links.map((link) => (
               <li key={link.key}>
@@ -42,7 +42,7 @@ export default async function Footer() {
         </div>
 
         <div>
-          <p className="text-sm font-medium text-white">{t("contact")}</p>
+          <p className="text-eyebrow uppercase text-white/50">{t("contact")}</p>
           <ul className="mt-4 space-y-3 text-sm text-white/60">
             <li>{t("email")}</li>
             <li>{t("location")}</li>
@@ -51,7 +51,7 @@ export default async function Footer() {
       </Container>
 
       <div className="border-t border-white/10">
-        <Container className="flex flex-col items-center justify-between gap-4 py-6 text-xs text-white/40 sm:flex-row">
+        <Container className="flex flex-col items-center justify-between gap-4 py-6 text-xs text-white/50 sm:flex-row">
           <p>{t("rights", { year })}</p>
         </Container>
       </div>

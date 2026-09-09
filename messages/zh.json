@@ -10,7 +10,10 @@
     "insights": "洞察",
     "about": "关于我们",
     "contact": "联系我们",
-    "cta": "预约咨询"
+    "cta": "预约咨询",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "skipToContent": "跳转到主要内容"
   },
   "LanguageSwitcher": {
     "label": "语言",
@@ -26,31 +29,481 @@
     "rights": "© {year} LeoVisa. 保留所有权利。"
   },
   "HomePage": {
-    "eyebrow": "英国市场进入顾问",
-    "title": "帮助中国企业验证英国市场，并真正落地英国。",
-    "description": "从市场验证到法律实体落地，我们协助中国制造商与品牌企业，稳健地在英国建立可信、可持续的业务。",
-    "primaryCta": "预约咨询",
-    "secondaryCta": "查看我们的服务"
+    "metaTitle": "进入英国市场，先把路走对",
+    "metaDescription": "我们帮助中国品牌、制造商和企业验证英国市场、设计进入路径，并协调电商、合规、公司及人员落地。",
+    "hero": {
+      "eyebrow": "英国市场进入顾问",
+      "titleLine1": "进入英国市场，",
+      "titleLine2": "先把路走对。",
+      "description": "我们帮助中国品牌、制造商和企业验证英国市场、设计进入路径，并协调电商、合规、公司及人员落地。",
+      "primaryCta": "开始英国市场诊断",
+      "secondaryCta": "了解我们的服务",
+      "visual": {
+        "origin": "中国",
+        "destination": "英国",
+        "nodes": {
+          "marketValidation": "市场验证",
+          "compliance": "合规审查",
+          "amazonUk": "Amazon UK",
+          "tiktokShop": "TikTok Shop",
+          "companySetup": "公司注册",
+          "ukExpansion": "英国扩张"
+        }
+      }
+    },
+    "problem": {
+      "title": "进入英国，不应该从“开店”开始。",
+      "q1": "我的产品适不适合英国？",
+      "q2": "Amazon、TikTok Shop 还是独立站？",
+      "q3": "VAT、产品合规和物流应该怎么安排？",
+      "q4": "公司和人员是否需要真正落地英国？",
+      "conclusion": "我们先帮你判断，再决定做什么。"
+    },
+    "services": {
+      "title": "从市场验证，到真正落地英国。",
+      "learnMore": "了解更多",
+      "item1": {
+        "number": "01",
+        "name": "英国市场可行性诊断",
+        "description": "市场需求、竞争格局、定价、渠道、利润空间与合规初筛。",
+        "outcomeLabel": "诊断结论",
+        "outcomes": {
+          "go": "通过",
+          "testFirst": "先测试",
+          "noGo": "不建议"
+        }
+      },
+      "item2": {
+        "number": "02",
+        "name": "英国市场进入路线图",
+        "description": "在正式启动前，理清每一个关键决策。",
+        "includes": {
+          "item1": "公司架构",
+          "item2": "VAT / EORI",
+          "item3": "渠道规划",
+          "item4": "SKU 策略",
+          "item5": "物流安排",
+          "item6": "预算规划",
+          "item7": "人员规划"
+        }
+      },
+      "item3": {
+        "number": "03",
+        "name": "30天英国市场验证",
+        "description": "用真实市场信号，判断这个机会是否值得进一步投入。",
+        "cta": "查看 30 天测试"
+      },
+      "item4": {
+        "number": "04",
+        "name": "英国企业与人员落地",
+        "description": "为企业在英国的真正落地，搭建法律、商业与人员基础。",
+        "includes": {
+          "item1": "英国公司注册",
+          "item2": "商业拓展",
+          "item3": "公司架构设计",
+          "item4": "团队落地",
+          "item5": "移民路径协调"
+        }
+      }
+    },
+    "marketTest": {
+      "eyebrow": "30天英国市场测试",
+      "title": "别猜英国市场，先测试。",
+      "weeks": {
+        "week1": { "label": "第 01 周", "title": "市场与竞品研究" },
+        "week2": { "label": "第 02 周", "title": "定价 / 上架 / 合规准备" },
+        "week3": { "label": "第 03 周", "title": "市场上线与数据采集" },
+        "week4": { "label": "第 04 周", "title": "效果复盘与决策" }
+      },
+      "receiveTitle": "你将获得：",
+      "receiveItems": {
+        "item1": "市场信号",
+        "item2": "转化洞察",
+        "item3": "成本结构",
+        "item4": "风险评估",
+        "item5": "下一步建议"
+      },
+      "cta": "开始英国市场测试"
+    },
+    "whyUs": {
+      "title": "我们不是传统代运营公司。",
+      "item1": {
+        "title": "英国本地",
+        "description": "团队立足英国本地，贴近市场、监管与终端消费者。"
+      },
+      "item2": {
+        "title": "数据驱动",
+        "description": "决策基于真实市场数据，而非主观判断或流行趋势。"
+      },
+      "item3": {
+        "title": "独立判断",
+        "description": "不隶属于任何平台、代运营网络或物流服务商，判断保持独立。"
+      },
+      "item4": {
+        "title": "跨领域协同",
+        "description": "市场策略、合规、物流与公司落地，作为一个整体流程协同推进。"
+      },
+      "item5": {
+        "title": "AI 增强",
+        "description": "AI 提升了我们研究与内部工作流程的效率，专业判断始终由顾问团队把控。"
+      }
+    },
+    "clientTypes": {
+      "title": "为真正准备进入英国的企业而设计。",
+      "item1": {
+        "title": "中国制造商",
+        "description": "在投入渠道、库存与基础设施之前，先验证英国市场需求。"
+      },
+      "item2": {
+        "title": "准备国际化的成熟品牌",
+        "description": "将成熟品牌带入英国市场，从第一天起就建立正确的架构。"
+      },
+      "item3": {
+        "title": "准备建立英国业务的企业",
+        "description": "从进入市场，走向真正合规、可持续的英国业务运营。"
+      }
+    },
+    "insights": {
+      "title": "英国市场洞察",
+      "disclaimer": "以下为我们市场研究方法的示例内容，并非客户案例。",
+      "sampleLabel": "示例",
+      "viewAll": "查看全部洞察内容",
+      "item1": {
+        "tag": "家居家纺",
+        "title": "英国市场进入评估",
+        "description": "评估家居品牌进入英国市场的需求、价格定位与竞争格局。"
+      },
+      "item2": {
+        "tag": "美妆个护",
+        "title": "TikTok Shop 市场验证",
+        "description": "验证美妆品牌通过 TikTok Shop 进入英国市场的可行性。"
+      },
+      "item3": {
+        "tag": "消费电子",
+        "title": "Amazon UK 可行性研究",
+        "description": "评估消费电子产品线在 Amazon UK 的可行性。"
+      }
+    },
+    "finalCta": {
+      "titleLine1": "进入英国之前，",
+      "titleLine2": "先判断这一步值不值得走。",
+      "description": "告诉我们你的产品、品牌或英国拓展计划，我们会帮你判断当前所处的阶段，以及下一步该怎么走。",
+      "primaryCta": "开始英国市场诊断",
+      "secondaryCta": "联系我们"
+    }
   },
   "ServicesPage": {
-    "eyebrow": "服务",
-    "title": "覆盖英国市场进入各阶段的专业服务。",
-    "description": "关于市场验证、进入与落地服务的完整介绍正在建设中。"
+    "metaTitle": "英国市场进入与企业落地服务",
+    "metaDescription": "从判断英国是否是合适的市场，到建立可持续的本地业务。",
+    "hero": {
+      "eyebrow": "服务",
+      "title": "英国市场进入与企业落地服务",
+      "subtitle": "从判断英国是否是合适的市场，到建立可持续的本地业务。"
+    },
+    "stagesNav": {
+      "label": "找到你所在的阶段"
+    },
+    "stages": {
+      "labels": {
+        "solves": "解决什么问题",
+        "who": "适合什么样的企业",
+        "analyse": "我们分析什么",
+        "deliverables": "典型交付成果",
+        "next": "下一步会怎样"
+      },
+      "item1": {
+        "number": "01",
+        "question": "我们该不该进入英国？",
+        "name": "英国市场可行性诊断",
+        "whatItSolves": "很多中国企业在真正了解英国市场需求、定价与竞争之前，就已经投入渠道或备货。这项服务，帮你先回答这个问题。",
+        "whoItIsFor": "面向首次考虑进入英国、对当地市场缺乏第一手了解的制造商与品牌企业。",
+        "analyse": {
+          "item1": "市场需求",
+          "item2": "竞争格局",
+          "item3": "价格定位",
+          "item4": "渠道适配度",
+          "item5": "利润结构",
+          "item6": "监管与合规风险"
+        },
+        "deliverables": {
+          "item1": "市场可行性诊断报告",
+          "item2": "GO / 先测试 / NO-GO 建议",
+          "item3": "渠道与定位建议"
+        },
+        "next": "如果诊断结果支持进入，我们将根据你当前的确定性程度，进入英国市场进入路线图，或直接开始 30天市场测试。"
+      },
+      "item2": {
+        "number": "02",
+        "question": "我们应该如何进入？",
+        "name": "英国市场进入路线图",
+        "whatItSolves": "一旦确认值得进入英国，企业需要的是一份协调一致的计划，而不是在压力下临时拼凑的零散决策。",
+        "whoItIsFor": "面向已决定进入英国、需要在投入预算与资源前理清结构化计划的企业。",
+        "analyse": {
+          "item1": "公司架构方案",
+          "item2": "VAT 与 EORI 要求",
+          "item3": "渠道策略",
+          "item4": "SKU 与产品优先级",
+          "item5": "物流与履约模式",
+          "item6": "预算分配",
+          "item7": "人员与资源需求"
+        },
+        "deliverables": {
+          "item1": "分阶段进入路线图",
+          "item2": "架构与合规建议",
+          "item3": "渠道与物流方案",
+          "item4": "预算框架"
+        },
+        "next": "路线图将成为执行阶段的参考依据——根据风险承受能力，选择进入 30天市场测试，或直接进入市场。"
+      },
+      "item3": {
+        "number": "03",
+        "question": "我们能验证这个机会吗？",
+        "name": "30天英国市场验证",
+        "whatItSolves": "计划和研究只能告诉你一部分答案。在进一步投入前，我们用真实市场表现来验证这个机会。",
+        "whoItIsFor": "面向已有明确计划、希望在规模化前获得真实证据而非假设的企业。",
+        "analyse": {
+          "item1": "实时转化与互动数据",
+          "item2": "价格反应",
+          "item3": "获客成本",
+          "item4": "早期客户反馈",
+          "item5": "运营中的阻力点"
+        },
+        "deliverables": {
+          "item1": "每周表现简报",
+          "item2": "综合市场信号报告",
+          "item3": "明确的下一步建议"
+        },
+        "next": "测试结果将决定是扩大投入、调整策略，还是在进一步投入前暂停。"
+      },
+      "item4": {
+        "number": "04",
+        "question": "我们该如何真正落地？",
+        "name": "英国企业与人员落地",
+        "whatItSolves": "真正落地英国，需要的不只是一个公司注册号，还需要正确的架构，某些情况下还需要真实在地的人员。",
+        "whoItIsFor": "面向已决定在商业与运营层面，长期扎根英国市场的企业。",
+        "analyse": {
+          "item1": "公司架构与注册要求",
+          "item2": "商业拓展需求",
+          "item3": "运营与汇报架构",
+          "item4": "团队落地需求",
+          "item5": "移民路径选项"
+        },
+        "deliverables": {
+          "item1": "英国公司注册支持",
+          "item2": "公司架构文件",
+          "item3": "团队落地方案",
+          "item4": "与移民顾问的协调（如适用）"
+        },
+        "next": "在企业于英国建立并发展业务的过程中，我们将提供持续的顾问支持。"
+      }
+    },
+    "engagementFormats": {
+      "title": "合作形式",
+      "intro": "根据你的实际需求，我们提供不同的合作方式。",
+      "item1": {
+        "name": "诊断",
+        "description": "在决策前，针对具体问题进行的聚焦式、限时评估。"
+      },
+      "item2": {
+        "name": "项目制",
+        "description": "具有明确范围与交付成果的工作，例如路线图制定或公司注册流程。"
+      },
+      "item3": {
+        "name": "市场测试",
+        "description": "在进一步投入前，用于验证真实市场反应的结构化限时测试。"
+      },
+      "item4": {
+        "name": "持续顾问支持",
+        "description": "根据企业所处阶段与需求，在英国运营与发展过程中提供持续支持。"
+      }
+    },
+    "finalCta": {
+      "title": "不知道从哪里开始？",
+      "subtitle": "先做一次英国市场诊断。",
+      "cta": "开始英国市场诊断"
+    }
   },
   "HowWeWorkPage": {
-    "eyebrow": "服务流程",
-    "title": "严谨的方法论，而非一次性项目。",
-    "description": "我们正在整理从市场验证到企业在英国完全落地的完整工作方法。"
+    "metaTitle": "用更清晰的方法进入英国市场",
+    "metaDescription": "我们从理解问题开始——而不是从推销服务开始。",
+    "hero": {
+      "eyebrow": "服务流程",
+      "title": "用更清晰的方法进入英国市场。",
+      "description": "我们从理解问题开始——而不是从推销服务开始。"
+    },
+    "methodology": {
+      "title": "每一个建议背后的流程。",
+      "steps": {
+        "item1": {
+          "number": "01",
+          "title": "理解业务",
+          "focus": {
+            "item1": "产品",
+            "item2": "当前市场",
+            "item3": "商业模式",
+            "item4": "拓展目标"
+          }
+        },
+        "item2": {
+          "number": "02",
+          "title": "判断机会",
+          "focus": {
+            "item1": "需求",
+            "item2": "竞争",
+            "item3": "定价",
+            "item4": "利润空间",
+            "item5": "合规"
+          }
+        },
+        "item3": {
+          "number": "03",
+          "title": "设计路线",
+          "focus": {
+            "item1": "渠道策略",
+            "item2": "公司架构",
+            "item3": "运营安排",
+            "item4": "预算",
+            "item5": "人员"
+          }
+        },
+        "item4": {
+          "number": "04",
+          "title": "真实验证",
+          "focus": {
+            "item1": "小规模上线",
+            "item2": "市场信号",
+            "item3": "转化",
+            "item4": "成本",
+            "item5": "运营问题"
+          }
+        },
+        "item5": {
+          "number": "05",
+          "title": "做出决策",
+          "focus": {
+            "item1": "扩大投入",
+            "item2": "调整策略",
+            "item3": "暂停",
+            "item4": "不建议进入"
+          }
+        }
+      }
+    },
+    "principles": {
+      "title": "指导我们每一个判断的原则。",
+      "item1": "先看证据，再做判断。",
+      "item2": "先验证，再扩大投入。",
+      "item3": "先设计结构，再执行。",
+      "item4": "英国本地情况必须被真正理解。"
+    },
+    "whatWeDontDo": {
+      "title": "我们不会",
+      "item1": "承诺保证销量。",
+      "item2": "单纯为了卖服务，而推荐一个市场。",
+      "item3": "让客户投入不必要的基础设施。",
+      "item4": "用同一套模板对待所有企业。"
+    },
+    "finalCta": {
+      "title": "开始评估你的英国市场机会。",
+      "cta": "开始英国市场诊断"
+    }
   },
   "InsightsPage": {
-    "eyebrow": "洞察",
-    "title": "面向决策者的英国市场洞察。",
-    "description": "关于英国市场进入、监管与品牌定位的洞察内容即将发布。"
+    "metaTitle": "英国市场洞察",
+    "metaDescription": "面向希望了解英国市场、跨境电商与英国企业运营的中国企业，提供务实的分析内容。",
+    "hero": {
+      "eyebrow": "洞察",
+      "title": "英国市场洞察",
+      "description": "面向希望了解英国市场、跨境电商与英国企业运营的中国企业，提供务实的分析内容。"
+    },
+    "toolbar": {
+      "searchPlaceholder": "搜索洞察内容",
+      "searchLabel": "搜索洞察内容",
+      "allCategories": "全部"
+    },
+    "categories": {
+      "uk-market": "英国市场",
+      "ecommerce": "电商渠道",
+      "compliance": "合规",
+      "business-setup": "企业落地",
+      "people-mobility": "人员与商务流动"
+    },
+    "card": {
+      "readingTime": "{minutes} 分钟阅读",
+      "readInsight": "阅读全文"
+    },
+    "empty": {
+      "title": "该分类下的更多内容即将上线。"
+    },
+    "article": {
+      "back": "返回洞察列表",
+      "comingSoonTitle": "完整内容正在准备中。",
+      "comingSoonBody": "我们正在准备这篇内容的完整分析。上方摘要已经反映了我们目前的核心判断——也欢迎直接与我们联系深入探讨。",
+      "ctaTitle": "正在考虑英国市场？",
+      "ctaButton": "开始英国市场诊断"
+    }
   },
   "AboutPage": {
-    "eyebrow": "关于我们",
-    "title": "一支深耕英国市场的专业顾问团队。",
-    "description": "关于团队、方法论与过往业绩的详细介绍正在准备中。"
+    "metaTitle": "连接中国企业与英国市场",
+    "metaDescription": "我们帮助中国企业更理性、更有效地进入并落地英国。",
+    "hero": {
+      "eyebrow": "关于我们",
+      "title": "连接中国企业与英国市场。",
+      "description": "我们帮助中国企业更理性、更有效地进入并落地英国。"
+    },
+    "perspective": {
+      "title": "我们从问题出发，而不是从服务出发。",
+      "body1": "很多市场进入服务机构，习惯从自己已有的资源出发思考：有仓储能力的，倾向于推荐仓储方案；有代运营团队的，倾向于推荐代运营服务；专注注册业务的，则更倾向于建议注册公司。这些答案本身未必错误，但很少是真正应该被最先问出的问题。",
+      "body2": "我们的方式不同：先理解客户真正面对的问题，再组合所需要的能力与资源——而不是直接推荐我们手上现成的服务。"
+    },
+    "different": {
+      "title": "我们的不同之处。",
+      "item1": {
+        "title": "英国本地市场视角",
+        "description": "基于身处英国市场内部的判断，而不是隔岸观察。"
+      },
+      "item2": {
+        "title": "跨境理解能力",
+        "description": "既理解中国企业的运作方式，也理解英国市场的真实规则。"
+      },
+      "item3": {
+        "title": "商业与运营并重的思维",
+        "description": "既考虑商业策略，也考虑企业真正落地运营的可行性。"
+      },
+      "item4": {
+        "title": "企业与人员落地视角",
+        "description": "视野不止于市场进入，也涵盖支撑长期运营所需的架构与人员。"
+      },
+      "item5": {
+        "title": "技术赋能的研究能力",
+        "description": "借助技术提升研究与分析效率，但技术本身不是我们提供的产品。"
+      }
+    },
+    "network": {
+      "title": "专业协作网络模式。",
+      "description": "我们采用专业协作网络，根据项目需要协调市场、电商、合规、财税、物流及企业落地等专业能力。",
+      "domains": {
+        "item1": "市场研究",
+        "item2": "电商",
+        "item3": "合规",
+        "item4": "财税",
+        "item5": "物流",
+        "item6": "企业落地"
+      }
+    },
+    "principles": {
+      "title": "我们坚持的原则。",
+      "item1": "清晰",
+      "item2": "独立",
+      "item3": "基于证据",
+      "item4": "务实",
+      "item5": "长期视角"
+    },
+    "finalCta": {
+      "title": "正在考虑英国市场？",
+      "subtitle": "先从正确的问题开始。",
+      "cta": "开始英国市场诊断"
+    }
   },
   "ContactPage": {
     "eyebrow": "联系我们",

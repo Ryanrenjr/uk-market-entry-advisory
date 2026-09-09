@@ -1,31 +1,42 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import PageHero from "@/components/ui/PageHero";
-import Button from "@/components/ui/Button";
+import { buildMetadata } from "@/lib/metadata";
+import HeroSection from "@/components/home/HeroSection";
+import ProblemSection from "@/components/home/ProblemSection";
+import ServicesSection from "@/components/home/ServicesSection";
+import MarketTestSection from "@/components/home/MarketTestSection";
+import WhyUsSection from "@/components/home/WhyUsSection";
+import ClientTypesSection from "@/components/home/ClientTypesSection";
+import InsightsSection from "@/components/home/InsightsSection";
+import FinalCtaSection from "@/components/home/FinalCtaSection";
 
 type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "HomePage" });
-  return { title: t("title"), description: t("description") };
+  return buildMetadata({
+    locale,
+    path: "",
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+  });
 }
 
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations("HomePage");
 
   return (
-    <PageHero
-      eyebrow={t("eyebrow")}
-      title={t("title")}
-      description={t("description")}
-    >
-      <Button href="/contact">{t("primaryCta")}</Button>
-      <Button href="/services" variant="secondary">
-        {t("secondaryCta")}
-      </Button>
-    </PageHero>
+    <>
+      <HeroSection />
+      <ProblemSection />
+      <ServicesSection />
+      <MarketTestSection />
+      <WhyUsSection />
+      <ClientTypesSection />
+      <InsightsSection />
+      <FinalCtaSection />
+    </>
   );
 }
