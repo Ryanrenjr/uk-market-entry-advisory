@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "titleDefault": "LeoVisa | 英国市场进入与企业落地顾问",
-    "titleTemplate": "%s | LeoVisa",
+    "titleDefault": "London Thames International | 英国市场进入与企业落地顾问",
+    "titleTemplate": "%s | London Thames International",
     "description": "帮助中国企业验证英国市场，并真正落地英国。"
   },
   "Nav": {
@@ -24,9 +24,9 @@
     "tagline": "我们以严谨、专业的市场进入顾问方法，帮助中国企业验证英国市场，并真正落地英国。",
     "quickLinks": "快速链接",
     "contact": "联系方式",
-    "email": "hello@leovisa.co.uk",
+    "email": "londonthamesinternational@gmail.com",
     "location": "英国 · 伦敦",
-    "rights": "© {year} LeoVisa. 保留所有权利。"
+    "rights": "© {year} London Thames International. 保留所有权利。"
   },
   "HomePage": {
     "metaTitle": "进入英国市场，先把路走对",
@@ -147,6 +147,10 @@
         "title": "AI 增强",
         "description": "AI 提升了我们研究与内部工作流程的效率，专业判断始终由顾问团队把控。"
       }
+    },
+    "cityPhoto": {
+      "caption": "英国伦敦金融城",
+      "alt": "英国伦敦金融城天际线鸟瞰，可见泰晤士河与观光船"
     },
     "clientTypes": {
       "title": "为真正准备进入英国的企业而设计。",
@@ -297,8 +301,14 @@
         "next": "在企业于英国建立并发展业务的过程中，我们将提供持续的顾问支持。"
       }
     },
+    "cityPhoto": {
+      "caption": "英国伦敦 · 圣保罗大教堂",
+      "alt": "黄昏时分，从千禧桥眺望圣保罗大教堂"
+    },
     "engagementFormats": {
       "title": "合作形式",
+      "photoCaption": "英国伦敦 · 金融城",
+      "photoAlt": "暴风云与金色霞光下的伦敦天际线鸟瞰",
       "intro": "根据你的实际需求，我们提供不同的合作方式。",
       "item1": {
         "name": "诊断",
@@ -396,6 +406,14 @@
       "item3": "先设计结构，再执行。",
       "item4": "英国本地情况必须被真正理解。"
     },
+    "cityPhoto": {
+      "caption": "英国伦敦 · 塔桥",
+      "alt": "夕阳下泰晤士河畔的伦敦塔桥剪影"
+    },
+    "cityPhoto2": {
+      "caption": "英国伦敦 · 利物浦街车站",
+      "alt": "利物浦街车站维多利亚式铁艺穹顶下，一列火车驶入站台"
+    },
     "whatWeDontDo": {
       "title": "我们不会",
       "item1": "承诺保证销量。",
@@ -415,6 +433,14 @@
       "eyebrow": "洞察",
       "title": "英国市场洞察",
       "description": "面向希望了解英国市场、跨境电商与英国企业运营的中国企业，提供务实的分析内容。"
+    },
+    "cityPhoto": {
+      "caption": "英国伦敦 · 英格兰银行",
+      "alt": "英国伦敦金融城内英格兰银行的新古典主义建筑外观"
+    },
+    "cityPhoto2": {
+      "caption": "伦敦塔桥 · 鸟瞰",
+      "alt": "阴天下伦敦塔桥与泰晤士河的鸟瞰视角"
     },
     "toolbar": {
       "searchPlaceholder": "搜索洞察内容",
@@ -489,7 +515,13 @@
         "item4": "财税",
         "item5": "物流",
         "item6": "企业落地"
-      }
+      },
+      "photoCaption": "英国伦敦 · 大本钟",
+      "photoAlt": "大本钟钟楼与钟面特写，衬着晴朗天空"
+    },
+    "cityPhoto": {
+      "caption": "伦敦",
+      "alt": "夕阳下的伦敦小黄瓜大厦（Gherkin）鸟瞰"
     },
     "principles": {
       "title": "我们坚持的原则。",
@@ -508,8 +540,16 @@
   "ContactPage": {
     "eyebrow": "联系我们",
     "title": "从一次保密沟通开始。",
-    "description": "与我们顾问团队直接联系的方式即将在此提供。",
-    "email": "hello@leovisa.co.uk",
-    "emailCta": "发送邮件"
+    "description": "告诉我们你的产品、品牌或英国拓展计划，我们的顾问团队会直接与你联系。",
+    "email": "londonthamesinternational@gmail.com",
+    "emailCta": "发送邮件",
+    "cityPhoto": {
+      "caption": "英国伦敦 · 威斯敏斯特",
+      "alt": "黄昏时分，英国国会大厦与大本钟在泰晤士河上的倒影"
+    },
+    "cityPhoto2": {
+      "caption": "英国伦敦 · 圣保罗大教堂穹顶",
+      "alt": "湛蓝天空下的圣保罗大教堂穹顶"
+    }
   }
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { Link, usePathname } from "@/i18n/navigation";
@@ -30,6 +31,17 @@ export default function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const photoHeroRoutes = [
+    "/",
+    "/about",
+    "/services",
+    "/how-we-work",
+    "/insights",
+    "/contact",
+  ];
+  const hasPhotoHero = photoHeroRoutes.includes(pathname);
+  const light = hasPhotoHero && !scrolled && !open;
+
   return (
     <header
       className={`sticky top-0 z-50 border-b transition-colors duration-300 ${
@@ -42,9 +54,21 @@ export default function Header() {
         <Link
           href="/"
           onClick={() => setOpen(false)}
-          className="text-base font-semibold tracking-tight text-primary-dark"
+          className={`flex items-center gap-2.5 text-base font-semibold tracking-tight transition-colors duration-300 ${
+            light ? "text-white" : "text-primary-dark"
+          }`}
         >
-          UK Market Entry
+          <Image
+            src="/images/logo-mark.png"
+            alt=""
+            width={32}
+            height={32}
+            priority
+            className={`rounded-full transition-colors duration-300 ${
+              light ? "h-8 w-8 bg-white/95 p-1 shadow-sm" : "h-8 w-8"
+            }`}
+          />
+          <span>London Thames International</span>
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">
@@ -54,18 +78,22 @@ export default function Header() {
               <Link
                 key={item.key}
                 href={item.href}
-                className={`relative py-1 text-sm transition-colors ${
+                className={`relative py-1 text-sm transition-colors duration-300 ${
                   isActive
-                    ? "font-medium text-primary-dark"
-                    : "text-primary-dark/60 hover:text-primary-dark"
+                    ? light
+                      ? "font-medium text-white"
+                      : "font-medium text-primary-dark"
+                    : light
+                      ? "text-white/70 hover:text-white"
+                      : "text-primary-dark/60 hover:text-primary-dark"
                 }`}
               >
                 {t(item.key)}
                 <span
                   aria-hidden
-                  className={`absolute -bottom-0.5 left-0 h-px w-full bg-accent transition-opacity duration-200 ${
-                    isActive ? "opacity-100" : "opacity-0"
-                  }`}
+                  className={`absolute -bottom-0.5 left-0 h-px w-full transition-opacity duration-200 ${
+                    light ? "bg-accent-light" : "bg-accent"
+                  } ${isActive ? "opacity-100" : "opacity-0"}`}
                 />
               </Link>
             );
@@ -73,15 +101,21 @@ export default function Header() {
         </nav>
 
         <div className="hidden items-center gap-6 lg:flex">
-          <LanguageSwitcher />
-          <Button href="/contact" variant="primary" size="sm">
+          <LanguageSwitcher light={light} />
+          <Button
+            href="/contact"
+            variant={light ? "secondary" : "primary"}
+            size="sm"
+          >
             {t("cta")}
           </Button>
         </div>
 
         <button
           type="button"
-          className="inline-flex items-center justify-center rounded-md p-2 text-primary-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent lg:hidden"
+          className={`inline-flex items-center justify-center rounded-md p-2 transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent lg:hidden ${
+            light ? "text-white" : "text-primary-dark"
+          }`}
           onClick={() => setOpen((value) => !value)}
           aria-label={open ? t("closeMenu") : t("openMenu")}
           aria-expanded={open}

@@ -3,6 +3,7 @@ import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Reveal from "@/components/ui/Reveal";
+import SplitImage from "@/components/ui/SplitImage";
 
 export default async function EngagementFormatsSection() {
   const t = await getTranslations("ServicesPage.engagementFormats");
@@ -15,9 +16,20 @@ export default async function EngagementFormatsSection() {
   return (
     <Section spacing="default" border>
       <Container>
-        <Reveal>
-          <SectionHeading number="05" title={t("title")} description={t("intro")} />
-        </Reveal>
+        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+          <Reveal>
+            <SectionHeading number="05" title={t("title")} description={t("intro")} />
+          </Reveal>
+
+          <Reveal delay={0.1}>
+            <SplitImage
+              src="/images/london-shard-golden-aerial.jpg"
+              alt={t("photoAlt")}
+              caption={t("photoCaption")}
+              className="lg:order-last"
+            />
+          </Reveal>
+        </div>
 
         <div className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((item, index) => (

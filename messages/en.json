@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "titleDefault": "LeoVisa | UK Market Entry Advisory",
-    "titleTemplate": "%s | LeoVisa",
+    "titleDefault": "London Thames International | UK Market Entry Advisory",
+    "titleTemplate": "%s | London Thames International",
     "description": "We help Chinese businesses test, enter and establish in the UK."
   },
   "Nav": {
@@ -24,9 +24,9 @@
     "tagline": "We help Chinese businesses test, enter and establish in the UK — with the clarity and rigour of a trusted market entry advisory.",
     "quickLinks": "Quick Links",
     "contact": "Contact",
-    "email": "hello@leovisa.co.uk",
+    "email": "londonthamesinternational@gmail.com",
     "location": "London, United Kingdom",
-    "rights": "© {year} LeoVisa. All rights reserved."
+    "rights": "© {year} London Thames International. All rights reserved."
   },
   "HomePage": {
     "metaTitle": "Enter the UK Market with Clarity",
@@ -147,6 +147,10 @@
         "title": "AI-enabled",
         "description": "AI improves the speed and rigour of our research and workflow — the judgement stays with our advisors."
       }
+    },
+    "cityPhoto": {
+      "caption": "The City of London",
+      "alt": "Aerial view of the City of London skyline with the River Thames and passenger boats"
     },
     "clientTypes": {
       "title": "Built for businesses entering the UK.",
@@ -297,9 +301,15 @@
         "next": "Ongoing advisory support as the business establishes and grows its UK operations."
       }
     },
+    "cityPhoto": {
+      "caption": "St Paul's, London",
+      "alt": "St Paul's Cathedral viewed from the Millennium Bridge at dusk"
+    },
     "engagementFormats": {
       "title": "Engagement Formats",
       "intro": "How we work together, shaped by what you actually need.",
+      "photoCaption": "The City of London",
+      "photoAlt": "Dramatic aerial view of London's skyline beneath a golden, storm-lit sky",
       "item1": {
         "name": "Diagnostic",
         "description": "A focused, time-boxed assessment used to answer a specific question before deciding on next steps."
@@ -396,6 +406,14 @@
       "item3": "Structure before execution.",
       "item4": "Local context matters."
     },
+    "cityPhoto": {
+      "caption": "Tower Bridge, London",
+      "alt": "Tower Bridge silhouetted against a sunset sky over the River Thames"
+    },
+    "cityPhoto2": {
+      "caption": "Liverpool Street Station, London",
+      "alt": "The Victorian ironwork roof of Liverpool Street Station as a train arrives"
+    },
     "whatWeDontDo": {
       "title": "What we don't do",
       "item1": "Promise guaranteed sales.",
@@ -415,6 +433,14 @@
       "eyebrow": "Insights",
       "title": "UK Market Intelligence Hub",
       "description": "Practical analysis for Chinese businesses exploring the UK market, cross-border commerce, and what it takes to operate here."
+    },
+    "cityPhoto": {
+      "caption": "Bank of England, London",
+      "alt": "The neoclassical facade of the Bank of England in the City of London"
+    },
+    "cityPhoto2": {
+      "caption": "Tower Bridge, from above",
+      "alt": "Aerial view of Tower Bridge and the River Thames on an overcast day"
     },
     "toolbar": {
       "searchPlaceholder": "Search insights",
@@ -489,7 +515,13 @@
         "item4": "Accounting",
         "item5": "Logistics",
         "item6": "Business establishment"
-      }
+      },
+      "photoCaption": "Big Ben, London",
+      "photoAlt": "Close detail of Big Ben's clock face and spire against a clear sky"
+    },
+    "cityPhoto": {
+      "caption": "London",
+      "alt": "The Gherkin skyscraper in the City of London at sunset, viewed from above"
     },
     "principles": {
       "title": "What we hold to.",
@@ -508,8 +540,16 @@
   "ContactPage": {
     "eyebrow": "Contact",
     "title": "Start with a confidential conversation.",
-    "description": "A direct way to reach our advisory team will be available here shortly.",
-    "email": "hello@leovisa.co.uk",
-    "emailCta": "Email Us"
+    "description": "Tell us about your product, brand or UK expansion plan, and our advisory team will get back to you directly.",
+    "email": "londonthamesinternational@gmail.com",
+    "emailCta": "Email Us",
+    "cityPhoto": {
+      "caption": "Westminster, London",
+      "alt": "The Houses of Parliament and Big Ben illuminated at dusk, reflected in the River Thames"
+    },
+    "cityPhoto2": {
+      "caption": "St Paul's Cathedral dome, London",
+      "alt": "The dome of St Paul's Cathedral against a clear blue sky"
+    }
   }
 }

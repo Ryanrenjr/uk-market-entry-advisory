@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/metadata";
-import PageHero from "@/components/ui/PageHero";
+import PagePhotoHero from "@/components/ui/PagePhotoHero";
 import PerspectiveSection from "@/components/about/PerspectiveSection";
 import DifferentSection from "@/components/about/DifferentSection";
 import NetworkSection from "@/components/about/NetworkSection";
@@ -26,13 +26,17 @@ export default async function AboutPage({ params }: Props) {
   setRequestLocale(locale);
 
   const tHero = await getTranslations("AboutPage.hero");
+  const tPhoto = await getTranslations("AboutPage.cityPhoto");
 
   return (
     <>
-      <PageHero
+      <PagePhotoHero
         eyebrow={tHero("eyebrow")}
         title={tHero("title")}
         description={tHero("description")}
+        photoSrc="/images/london-gherkin-sunset.jpg"
+        photoAlt={tPhoto("alt")}
+        photoCaption={tPhoto("caption")}
       />
       <PerspectiveSection />
       <DifferentSection />

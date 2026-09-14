@@ -85,9 +85,10 @@ export default function InsightsExplorer({ articles }: InsightsExplorerProps) {
       ) : (
         <div>
           {filtered.map((article) => (
-            <article
+            <Link
               key={article.slug}
-              className="grid gap-4 border-b border-primary-dark/8 py-10 lg:grid-cols-12 lg:gap-8"
+              href={`/insights/${article.slug}`}
+              className="group -mx-6 grid gap-4 border-b border-primary-dark/8 px-6 py-10 transition-colors duration-200 hover:bg-primary-dark/[0.02] focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent lg:-mx-8 lg:grid-cols-12 lg:gap-8 lg:px-8"
             >
               <div className="lg:col-span-3">
                 <Tag tone="accent">{t(`categories.${article.category}`)}</Tag>
@@ -96,26 +97,23 @@ export default function InsightsExplorer({ articles }: InsightsExplorerProps) {
                 </p>
               </div>
               <div className="lg:col-span-9">
-                <h2 className="font-display text-h3 text-primary-dark">
+                <h2 className="font-display text-h3 text-primary-dark transition-colors duration-200 group-hover:text-accent">
                   {article.title}
                 </h2>
                 <p className="mt-3 max-w-2xl text-body-sm text-primary-dark/60">
                   {article.summary}
                 </p>
-                <Link
-                  href={`/insights/${article.slug}`}
-                  className="group mt-5 inline-flex items-center gap-1.5 rounded-sm text-sm font-medium text-accent transition-colors hover:text-primary-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-                >
+                <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-accent">
                   {t("card.readInsight")}
                   <span
                     aria-hidden
-                    className="transition-transform duration-200 group-hover:translate-x-0.5"
+                    className="transition-transform duration-200 group-hover:translate-x-1"
                   >
                     →
                   </span>
-                </Link>
+                </span>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       )}

@@ -19,7 +19,7 @@ export default async function Footer() {
     <footer className="border-t border-primary-dark/8 bg-primary-dark text-white/70">
       <Container className="grid gap-12 py-16 sm:grid-cols-2 lg:grid-cols-4">
         <div className="sm:col-span-2 lg:col-span-2">
-          <p className="text-base font-semibold text-white">LeoVisa</p>
+          <p className="text-base font-semibold text-white">London Thames International</p>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/60">
             {t("tagline")}
           </p>
@@ -44,7 +44,7 @@ export default async function Footer() {
         <div>
           <p className="text-eyebrow uppercase text-white/50">{t("contact")}</p>
           <ul className="mt-4 space-y-3 text-sm text-white/60">
-            <li>{t("email")}</li>
+            <li className="break-words">{t("email")}</li>
             <li>{t("location")}</li>
           </ul>
         </div>

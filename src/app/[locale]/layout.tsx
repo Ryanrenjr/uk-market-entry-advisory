@@ -62,7 +62,7 @@ export async function generateMetadata({
       title: t("titleDefault"),
       description: t("description"),
       url: `${siteUrl}/${locale}`,
-      siteName: "LeoVisa",
+      siteName: "London Thames International",
       locale: locale === "zh" ? "zh_CN" : "en_GB",
       type: "website",
     },

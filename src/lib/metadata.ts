@@ -40,7 +40,7 @@ export function buildMetadata({
       title,
       description,
       url,
-      siteName: "LeoVisa",
+      siteName: "London Thames International",
       locale: ogLocale[locale] ?? "en_GB",
       type: "website",
     },

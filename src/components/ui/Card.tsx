@@ -22,7 +22,7 @@ export default function Card({
   className = "",
 }: CardProps) {
   const hoverStyles = hover
-    ? "transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-primary-dark/14 hover:shadow-xs"
+    ? "transition-all duration-300 ease-out hover:-translate-y-1 hover:border-accent/25 hover:shadow-sm"
     : "";
 
   return (

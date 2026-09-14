@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/metadata";
-import PageHero from "@/components/ui/PageHero";
+import PagePhotoHero from "@/components/ui/PagePhotoHero";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import StagesNav from "@/components/services/StagesNav";
@@ -36,6 +36,7 @@ export default async function ServicesPage({ params }: Props) {
   const tHero = await getTranslations("ServicesPage.hero");
   const tNav = await getTranslations("ServicesPage.stagesNav");
   const tStages = await getTranslations("ServicesPage.stages");
+  const tPhoto = await getTranslations("ServicesPage.cityPhoto");
 
   const labels = {
     solves: tStages("labels.solves"),
@@ -62,10 +63,13 @@ export default async function ServicesPage({ params }: Props) {
 
   return (
     <>
-      <PageHero
+      <PagePhotoHero
         eyebrow={tHero("eyebrow")}
         title={tHero("title")}
         description={tHero("subtitle")}
+        photoSrc="/images/london-stpauls-millennium-bridge.jpg"
+        photoAlt={tPhoto("alt")}
+        photoCaption={tPhoto("caption")}
       />
 
       <Section spacing="tight">

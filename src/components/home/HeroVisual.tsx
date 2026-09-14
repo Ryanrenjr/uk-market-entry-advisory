@@ -6,7 +6,7 @@ interface HeroVisualProps {
 
 export default function HeroVisual({ origin, destination, nodes }: HeroVisualProps) {
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-primary-dark/8 bg-white p-8 sm:p-10">
+    <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white p-8 shadow-2xl shadow-primary-dark/40 sm:p-10">
       <div
         aria-hidden
         className="bg-grid-dots pointer-events-none absolute inset-0 text-primary-dark/[0.05]"
