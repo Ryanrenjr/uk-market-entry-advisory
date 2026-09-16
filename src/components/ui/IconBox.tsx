@@ -28,7 +28,7 @@ export default function IconBox({
 }: IconBoxProps) {
   return (
     <div
-      className={`inline-flex items-center justify-center rounded-xl border ${sizeStyles[size].box} ${toneStyles[tone]} ${className}`}
+      className={`inline-flex items-center justify-center rounded-xl border transition-all duration-300 ease-out group-hover:scale-110 group-hover:border-accent/35 ${sizeStyles[size].box} ${toneStyles[tone]} ${className}`}
     >
       <Icon className={sizeStyles[size].icon} strokeWidth={1.75} aria-hidden />
     </div>

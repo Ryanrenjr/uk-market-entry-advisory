@@ -7,7 +7,6 @@ interface StageLabels {
   who: string;
   analyse: string;
   deliverables: string;
-  next: string;
 }
 
 interface StageSectionProps {
@@ -18,7 +17,6 @@ interface StageSectionProps {
   whoItIsFor: string;
   analyse: string[];
   deliverables: string[];
-  next: string;
   labels: StageLabels;
   background?: "none" | "surface";
 }
@@ -31,7 +29,6 @@ export default function StageSection({
   whoItIsFor,
   analyse,
   deliverables,
-  next,
   labels,
   background = "none",
 }: StageSectionProps) {
@@ -84,13 +81,6 @@ export default function StageSection({
               <p className="mt-3 text-body-sm text-primary-dark/60">
                 {deliverables.join(" · ")}
               </p>
-
-              <div className="mt-8 border-l-2 border-accent/40 pl-4">
-                <p className="text-caption uppercase text-primary-dark/60">
-                  {labels.next}
-                </p>
-                <p className="mt-2 text-body-sm text-primary-dark/70">{next}</p>
-              </div>
             </div>
           </Reveal>
         </div>

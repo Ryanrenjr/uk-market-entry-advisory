@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/metadata";
 import PagePhotoHero from "@/components/ui/PagePhotoHero";
-import PhotoSection from "@/components/ui/PhotoSection";
+import SplitImage from "@/components/ui/SplitImage";
+import Section from "@/components/ui/Section";
+import Container from "@/components/ui/Container";
 import Button from "@/components/ui/Button";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -37,11 +39,28 @@ export default async function ContactPage({ params }: Props) {
           {t("emailCta")}
         </Button>
       </PagePhotoHero>
-      <PhotoSection
-        src="/images/london-stpauls-dome-blue.jpg"
-        alt={t("cityPhoto2.alt")}
-        caption={t("cityPhoto2.caption")}
-      />
+      <Section spacing="default" border>
+        <Container>
+          <div className="mx-auto grid max-w-4xl gap-6 sm:grid-cols-3">
+            <SplitImage
+              src="/images/office-exterior-london.jpg"
+              alt={t("officePhotoExterior.alt")}
+              caption={t("cityPhoto2.caption")}
+            />
+            <SplitImage
+              src="/images/office-lounge-london.jpg"
+              alt={t("officePhotoLounge.alt")}
+            />
+            <SplitImage
+              src="/images/office-reception-london.jpg"
+              alt={t("cityPhoto2.alt")}
+            />
+          </div>
+          <p className="mt-8 text-center text-body-sm text-primary-dark/60">
+            {t("officeAddress")}
+          </p>
+        </Container>
+      </Section>
     </>
   );
 }

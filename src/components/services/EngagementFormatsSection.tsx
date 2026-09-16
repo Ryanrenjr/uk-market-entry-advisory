@@ -23,7 +23,7 @@ export default async function EngagementFormatsSection() {
 
           <Reveal delay={0.1}>
             <SplitImage
-              src="/images/london-shard-golden-aerial.jpg"
+              src="/images/client-product-helmets.jpg"
               alt={t("photoAlt")}
               caption={t("photoCaption")}
               className="lg:order-last"

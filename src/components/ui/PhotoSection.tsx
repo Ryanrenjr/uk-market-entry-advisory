@@ -9,6 +9,7 @@ interface PhotoSectionProps {
   alt: string;
   caption?: string;
   priority?: boolean;
+  objectPosition?: string;
 }
 
 export default function PhotoSection({
@@ -16,6 +17,7 @@ export default function PhotoSection({
   alt,
   caption,
   priority = false,
+  objectPosition = "center",
 }: PhotoSectionProps) {
   const sectionRef = useRef<HTMLElement>(null);
   const reduceMotion = useReducedMotion();
@@ -41,6 +43,7 @@ export default function PhotoSection({
           fill
           priority={priority}
           sizes="100vw"
+          style={{ objectPosition }}
           className="object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.05]"
         />
       </motion.div>

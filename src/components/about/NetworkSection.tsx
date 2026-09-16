@@ -15,7 +15,7 @@ export default async function NetworkSection() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <Reveal>
             <SplitImage
-              src="/images/london-bigben-closeup.jpg"
+              src="/images/office-lounge-screen-london.jpg"
               alt={t("photoAlt")}
               caption={t("photoCaption")}
             />

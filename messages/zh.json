@@ -25,17 +25,17 @@
     "quickLinks": "快速链接",
     "contact": "联系方式",
     "email": "londonthamesinternational@gmail.com",
-    "location": "英国 · 伦敦",
+    "location": "Kings House, 174 Hammersmith Rd, London W6 7JP",
     "rights": "© {year} London Thames International. 保留所有权利。"
   },
   "HomePage": {
     "metaTitle": "进入英国市场，先把路走对",
     "metaDescription": "我们帮助中国品牌、制造商和企业验证英国市场、设计进入路径，并协调电商、合规、公司及人员落地。",
     "hero": {
-      "eyebrow": "英国市场进入顾问",
+      "eyebrow": "英国市场进入 · 电商出海 · 本地化执行",
       "titleLine1": "进入英国市场，",
       "titleLine2": "先把路走对。",
-      "description": "我们帮助中国品牌、制造商和企业验证英国市场、设计进入路径，并协调电商、合规、公司及人员落地。",
+      "description": "很多入英计划，第一步就是选渠道。我们的第一步，是判断英国这个市场到底值不值得进——想清楚了，再谈怎么做。",
       "primaryCta": "开始英国市场诊断",
       "secondaryCta": "了解我们的服务",
       "visual": {
@@ -50,6 +50,14 @@
           "ukExpansion": "英国扩张"
         }
       }
+    },
+    "channels": {
+      "label": "我们协助进入的渠道",
+      "item1": "Amazon UK",
+      "item2": "TikTok Shop",
+      "item3": "eBay",
+      "item4": "独立站 / DTC",
+      "item5": "全渠道市场"
     },
     "problem": {
       "title": "进入英国，不应该从“开店”开始。",
@@ -127,6 +135,8 @@
     },
     "whyUs": {
       "title": "我们不是传统代运营公司。",
+      "photoCaption": "英国伦敦 · 芬乔奇街",
+      "photoAlt": "晴朗天气下，伦敦金融城街道尽头是芬乔奇街20号大厦",
       "item1": {
         "title": "英国本地",
         "description": "团队立足英国本地，贴近市场、监管与终端消费者。"
@@ -151,6 +161,10 @@
     "cityPhoto": {
       "caption": "英国伦敦金融城",
       "alt": "英国伦敦金融城天际线鸟瞰，可见泰晤士河与观光船"
+    },
+    "europePhoto": {
+      "caption": "荷兰 · 阿姆斯特丹",
+      "alt": "黄昏时分，阿姆斯特丹运河边的历史山墙建筑"
     },
     "clientTypes": {
       "title": "为真正准备进入英国的企业而设计。",
@@ -307,8 +321,8 @@
     },
     "engagementFormats": {
       "title": "合作形式",
-      "photoCaption": "英国伦敦 · 金融城",
-      "photoAlt": "暴风云与金色霞光下的伦敦天际线鸟瞰",
+      "photoCaption": "产品准备进入英国市场",
+      "photoAlt": "整齐排列的成品，客户产品线正准备进入英国市场",
       "intro": "根据你的实际需求，我们提供不同的合作方式。",
       "item1": {
         "name": "诊断",
@@ -439,8 +453,8 @@
       "alt": "英国伦敦金融城内英格兰银行的新古典主义建筑外观"
     },
     "cityPhoto2": {
-      "caption": "伦敦塔桥 · 鸟瞰",
-      "alt": "阴天下伦敦塔桥与泰晤士河的鸟瞰视角"
+      "caption": "英国市场数据分析",
+      "alt": "在客户进入英国市场前，分析英国电商平台数据与品类洞察"
     },
     "toolbar": {
       "searchPlaceholder": "搜索洞察内容",
@@ -480,7 +494,9 @@
     "perspective": {
       "title": "我们从问题出发，而不是从服务出发。",
       "body1": "很多市场进入服务机构，习惯从自己已有的资源出发思考：有仓储能力的，倾向于推荐仓储方案；有代运营团队的，倾向于推荐代运营服务；专注注册业务的，则更倾向于建议注册公司。这些答案本身未必错误，但很少是真正应该被最先问出的问题。",
-      "body2": "我们的方式不同：先理解客户真正面对的问题，再组合所需要的能力与资源——而不是直接推荐我们手上现成的服务。"
+      "body2": "我们的方式不同：先理解客户真正面对的问题，再组合所需要的能力与资源——而不是直接推荐我们手上现成的服务。",
+      "photoCaption": "德国 · 法兰克福",
+      "photoAlt": "法兰克福天际线与美因河，德国金融中心"
     },
     "different": {
       "title": "我们的不同之处。",
@@ -516,12 +532,16 @@
         "item5": "物流",
         "item6": "企业落地"
       },
-      "photoCaption": "英国伦敦 · 大本钟",
-      "photoAlt": "大本钟钟楼与钟面特写，衬着晴朗天空"
+      "photoCaption": "英国伦敦 · Kings House",
+      "photoAlt": "伦敦办公室内的休息区，配有数字信息屏幕"
     },
     "cityPhoto": {
       "caption": "伦敦",
       "alt": "夕阳下的伦敦小黄瓜大厦（Gherkin）鸟瞰"
+    },
+    "factoryPhoto": {
+      "caption": "中国工厂实地考察",
+      "alt": "实地走访客户工厂产线，进行现场产品与供应商核查"
     },
     "principles": {
       "title": "我们坚持的原则。",
@@ -548,8 +568,15 @@
       "alt": "黄昏时分，英国国会大厦与大本钟在泰晤士河上的倒影"
     },
     "cityPhoto2": {
-      "caption": "英国伦敦 · 圣保罗大教堂穹顶",
-      "alt": "湛蓝天空下的圣保罗大教堂穹顶"
-    }
+      "caption": "英国伦敦 · Kings House",
+      "alt": "伦敦办公楼的大堂"
+    },
+    "officePhotoExterior": {
+      "alt": "Kings House 大楼入口，地址位于 174 Hammersmith Road, London"
+    },
+    "officePhotoLounge": {
+      "alt": "伦敦办公室内的休息洽谈区"
+    },
+    "officeAddress": "Kings House, 174 Hammersmith Rd, London W6 7JP"
   }
 }

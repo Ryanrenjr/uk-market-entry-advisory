@@ -25,17 +25,17 @@
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "email": "londonthamesinternational@gmail.com",
-    "location": "London, United Kingdom",
+    "location": "Kings House, 174 Hammersmith Rd, London W6 7JP",
     "rights": "© {year} London Thames International. All rights reserved."
   },
   "HomePage": {
     "metaTitle": "Enter the UK Market with Clarity",
     "metaDescription": "We help Chinese brands, manufacturers and businesses validate the UK market, design the right entry strategy, and establish their commercial presence in Britain.",
     "hero": {
-      "eyebrow": "UK Market Entry Advisory",
+      "eyebrow": "UK Market Entry · E-Commerce · Local Execution",
       "titleLine1": "Enter the UK Market",
       "titleLine2": "with Clarity.",
-      "description": "We help Chinese brands, manufacturers and businesses validate the UK market, design the right entry strategy, and establish their commercial presence in Britain.",
+      "description": "Most market-entry plans start by picking a channel. We start by asking whether the UK is the right market at all — then help you enter it properly.",
       "primaryCta": "Start Your UK Assessment",
       "secondaryCta": "Explore Our Services",
       "visual": {
@@ -50,6 +50,14 @@
           "ukExpansion": "UK Expansion"
         }
       }
+    },
+    "channels": {
+      "label": "Channels we work across",
+      "item1": "Amazon UK",
+      "item2": "TikTok Shop",
+      "item3": "eBay",
+      "item4": "Direct-to-Consumer",
+      "item5": "Marketplaces"
     },
     "problem": {
       "title": "Entering the UK should not start with opening a store.",
@@ -127,6 +135,8 @@
     },
     "whyUs": {
       "title": "Built differently from a traditional agency.",
+      "photoCaption": "Fenchurch Street, London",
+      "photoAlt": "A City of London street leading toward 20 Fenchurch Street on a clear day",
       "item1": {
         "title": "UK Based",
         "description": "Based in the UK, close to the market, regulation and buyers we advise on."
@@ -151,6 +161,10 @@
     "cityPhoto": {
       "caption": "The City of London",
       "alt": "Aerial view of the City of London skyline with the River Thames and passenger boats"
+    },
+    "europePhoto": {
+      "caption": "Amsterdam, Netherlands",
+      "alt": "Historic gabled canal houses in Amsterdam at golden hour"
     },
     "clientTypes": {
       "title": "Built for businesses entering the UK.",
@@ -308,8 +322,8 @@
     "engagementFormats": {
       "title": "Engagement Formats",
       "intro": "How we work together, shaped by what you actually need.",
-      "photoCaption": "The City of London",
-      "photoAlt": "Dramatic aerial view of London's skyline beneath a golden, storm-lit sky",
+      "photoCaption": "Product ready for UK market",
+      "photoAlt": "Rows of finished product ready for shipment, part of a client's range entering the UK market",
       "item1": {
         "name": "Diagnostic",
         "description": "A focused, time-boxed assessment used to answer a specific question before deciding on next steps."
@@ -439,8 +453,8 @@
       "alt": "The neoclassical facade of the Bank of England in the City of London"
     },
     "cityPhoto2": {
-      "caption": "Tower Bridge, from above",
-      "alt": "Aerial view of Tower Bridge and the River Thames on an overcast day"
+      "caption": "Analysing the UK market",
+      "alt": "Reviewing UK marketplace data and category analysis ahead of a client's market entry"
     },
     "toolbar": {
       "searchPlaceholder": "Search insights",
@@ -480,7 +494,9 @@
     "perspective": {
       "title": "We start with the problem, not our services.",
       "body1": "Many market entry providers work outward from what they already offer — a warehouse operator sells fulfilment, an agency sells channel management, a formation service sells company registration. Each may be the right answer for some businesses. It is rarely the first question worth asking.",
-      "body2": "We start differently: understanding what a business actually needs, then assembling the right combination of expertise — rather than defaulting to whatever happens to already be on offer."
+      "body2": "We start differently: understanding what a business actually needs, then assembling the right combination of expertise — rather than defaulting to whatever happens to already be on offer.",
+      "photoCaption": "Frankfurt, Germany",
+      "photoAlt": "The Frankfurt skyline across the Main river, Germany's financial centre"
     },
     "different": {
       "title": "What makes us different.",
@@ -516,12 +532,16 @@
         "item5": "Logistics",
         "item6": "Business establishment"
       },
-      "photoCaption": "Big Ben, London",
-      "photoAlt": "Close detail of Big Ben's clock face and spire against a clear sky"
+      "photoCaption": "Kings House, London",
+      "photoAlt": "A lounge area inside our London office, with a digital information display"
     },
     "cityPhoto": {
       "caption": "London",
       "alt": "The Gherkin skyscraper in the City of London at sunset, viewed from above"
+    },
+    "factoryPhoto": {
+      "caption": "Factory visit, China",
+      "alt": "Walking a client's factory floor in China as part of an on-the-ground product and supplier review"
     },
     "principles": {
       "title": "What we hold to.",
@@ -548,8 +568,15 @@
       "alt": "The Houses of Parliament and Big Ben illuminated at dusk, reflected in the River Thames"
     },
     "cityPhoto2": {
-      "caption": "St Paul's Cathedral dome, London",
-      "alt": "The dome of St Paul's Cathedral against a clear blue sky"
-    }
+      "caption": "Kings House, London",
+      "alt": "The lobby of our London office building"
+    },
+    "officePhotoExterior": {
+      "alt": "The entrance to Kings House at 174 Hammersmith Road, London"
+    },
+    "officePhotoLounge": {
+      "alt": "A lounge area inside our London office"
+    },
+    "officeAddress": "Kings House, 174 Hammersmith Rd, London W6 7JP"
   }
 }

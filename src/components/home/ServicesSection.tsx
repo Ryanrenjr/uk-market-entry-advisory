@@ -43,24 +43,6 @@ function CardWrapper({ href, children }: { href: string; children: ReactNode }) 
 export default async function ServicesSection() {
   const t = await getTranslations("HomePage.services");
 
-  const includes2 = [
-    t("item2.includes.item1"),
-    t("item2.includes.item2"),
-    t("item2.includes.item3"),
-    t("item2.includes.item4"),
-    t("item2.includes.item5"),
-    t("item2.includes.item6"),
-    t("item2.includes.item7"),
-  ].join(" · ");
-
-  const includes4 = [
-    t("item4.includes.item1"),
-    t("item4.includes.item2"),
-    t("item4.includes.item3"),
-    t("item4.includes.item4"),
-    t("item4.includes.item5"),
-  ].join(" · ");
-
   const outcomes = [
     t("item1.outcomes.go"),
     t("item1.outcomes.testFirst"),
@@ -120,9 +102,6 @@ export default async function ServicesSection() {
                 <p className="mt-3 text-body-sm text-primary-dark/60">
                   {t("item2.description")}
                 </p>
-                <p className="mt-6 text-body-sm text-primary-dark/60">
-                  {includes2}
-                </p>
                 <CardLabel>{t("learnMore")}</CardLabel>
               </Card>
             </CardWrapper>
@@ -162,9 +141,6 @@ export default async function ServicesSection() {
                 </h3>
                 <p className="mt-3 text-body-sm text-primary-dark/60">
                   {t("item4.description")}
-                </p>
-                <p className="mt-6 text-body-sm text-primary-dark/60">
-                  {includes4}
                 </p>
                 <CardLabel>{t("learnMore")}</CardLabel>
               </Card>

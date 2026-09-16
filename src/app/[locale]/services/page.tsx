@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/metadata";
 import PagePhotoHero from "@/components/ui/PagePhotoHero";
-import Container from "@/components/ui/Container";
-import Section from "@/components/ui/Section";
 import StagesNav from "@/components/services/StagesNav";
 import StageSection from "@/components/services/StageSection";
 import EngagementFormatsSection from "@/components/services/EngagementFormatsSection";
@@ -43,7 +41,6 @@ export default async function ServicesPage({ params }: Props) {
     who: tStages("labels.who"),
     analyse: tStages("labels.analyse"),
     deliverables: tStages("labels.deliverables"),
-    next: tStages("labels.next"),
   };
 
   const stages = stageItemCounts.map(({ item, analyse, deliverables }) => ({
@@ -58,7 +55,6 @@ export default async function ServicesPage({ params }: Props) {
     deliverables: Array.from({ length: deliverables }, (_, i) =>
       tStages(`${item}.deliverables.item${i + 1}`),
     ),
-    next: tStages(`${item}.next`),
   }));
 
   return (
@@ -72,23 +68,21 @@ export default async function ServicesPage({ params }: Props) {
         photoCaption={tPhoto("caption")}
       />
 
-      <Section spacing="tight">
-        <Container>
-          <StagesNav
-            label={tNav("label")}
-            stages={stages.map((s) => ({ number: s.number, question: s.question }))}
-          />
-        </Container>
-      </Section>
-
-      {stages.map((stage, index) => (
-        <StageSection
-          key={stage.number}
-          {...stage}
-          labels={labels}
-          background={index % 2 === 1 ? "surface" : "none"}
+      <div>
+        <StagesNav
+          label={tNav("label")}
+          stages={stages.map((s) => ({ number: s.number, question: s.question }))}
         />
-      ))}
+
+        {stages.map((stage, index) => (
+          <StageSection
+            key={stage.number}
+            {...stage}
+            labels={labels}
+            background={index % 2 === 1 ? "surface" : "none"}
+          />
+        ))}
+      </div>
 
       <EngagementFormatsSection />
       <ServicesFinalCta />

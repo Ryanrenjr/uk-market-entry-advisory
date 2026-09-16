@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/metadata";
 import PagePhotoHero from "@/components/ui/PagePhotoHero";
+import PhotoSection from "@/components/ui/PhotoSection";
 import PerspectiveSection from "@/components/about/PerspectiveSection";
 import DifferentSection from "@/components/about/DifferentSection";
 import NetworkSection from "@/components/about/NetworkSection";
@@ -27,6 +28,7 @@ export default async function AboutPage({ params }: Props) {
 
   const tHero = await getTranslations("AboutPage.hero");
   const tPhoto = await getTranslations("AboutPage.cityPhoto");
+  const tFactoryPhoto = await getTranslations("AboutPage.factoryPhoto");
 
   return (
     <>
@@ -40,6 +42,11 @@ export default async function AboutPage({ params }: Props) {
       />
       <PerspectiveSection />
       <DifferentSection />
+      <PhotoSection
+        src="/images/client-factory-floor-visit.jpg"
+        alt={tFactoryPhoto("alt")}
+        caption={tFactoryPhoto("caption")}
+      />
       <NetworkSection />
       <PrinciplesSection />
       <AboutFinalCta />

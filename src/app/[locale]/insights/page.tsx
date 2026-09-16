@@ -46,7 +46,7 @@ export default async function InsightsPage({ params }: Props) {
         </Container>
       </Section>
       <PhotoSection
-        src="/images/london-bridge-aerial-moody.jpg"
+        src="/images/client-uk-market-data-review.jpg"
         alt={tPhoto2("alt")}
         caption={tPhoto2("caption")}
       />

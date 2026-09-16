@@ -5,7 +5,7 @@ type Variant = "primary" | "secondary" | "outline" | "ghost";
 type Size = "sm" | "md" | "lg";
 
 const baseStyles =
-  "inline-flex items-center justify-center gap-2 rounded-full font-medium tracking-wide transition-all duration-200 ease-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-50 disabled:pointer-events-none";
+  "inline-flex items-center justify-center gap-2 rounded-full font-medium tracking-wide transition-all duration-200 ease-out hover:scale-[1.025] active:scale-[0.97] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-50 disabled:pointer-events-none disabled:hover:scale-100";
 
 const sizeStyles: Record<Size, string> = {
   sm: "px-4 py-2 text-xs",
@@ -15,9 +15,9 @@ const sizeStyles: Record<Size, string> = {
 
 const variantStyles: Record<Variant, string> = {
   primary:
-    "bg-primary-dark text-white hover:bg-secondary-dark hover:-translate-y-px hover:shadow-sm",
+    "bg-primary-dark text-white hover:bg-secondary-dark hover:shadow-md",
   secondary:
-    "bg-white text-primary-dark border border-primary-dark/15 hover:border-primary-dark/30 hover:-translate-y-px",
+    "bg-white text-primary-dark border border-primary-dark/15 hover:border-primary-dark/30 hover:shadow-sm",
   outline: "border border-white/30 text-white hover:bg-white/10",
   ghost: "text-primary-dark/80 hover:text-primary-dark hover:bg-primary-dark/5",
 };

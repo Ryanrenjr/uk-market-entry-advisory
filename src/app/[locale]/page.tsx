@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/metadata";
 import PhotoSection from "@/components/ui/PhotoSection";
+import Marquee from "@/components/ui/Marquee";
 import HeroSection from "@/components/home/HeroSection";
 import ProblemSection from "@/components/home/ProblemSection";
 import ServicesSection from "@/components/home/ServicesSection";
@@ -29,20 +30,36 @@ export default async function HomePage({ params }: Props) {
   setRequestLocale(locale);
 
   const tPhoto = await getTranslations("HomePage.cityPhoto");
+  const tEuropePhoto = await getTranslations("HomePage.europePhoto");
+  const tChannels = await getTranslations("HomePage.channels");
+  const channelItems = [
+    tChannels("item1"),
+    tChannels("item2"),
+    tChannels("item3"),
+    tChannels("item4"),
+    tChannels("item5"),
+  ];
 
   return (
     <>
       <HeroSection />
+      <Marquee label={tChannels("label")} items={channelItems} />
       <ProblemSection />
       <ServicesSection />
       <MarketTestSection />
-      <WhyUsSection />
       <PhotoSection
         src="/images/london-city-skyline-thames.jpg"
         alt={tPhoto("alt")}
         caption={tPhoto("caption")}
       />
+      <WhyUsSection />
       <ClientTypesSection />
+      <PhotoSection
+        src="/images/europe-amsterdam-canal.jpg"
+        alt={tEuropePhoto("alt")}
+        caption={tEuropePhoto("caption")}
+        objectPosition="center 55%"
+      />
       <InsightsSection />
       <FinalCtaSection />
     </>
