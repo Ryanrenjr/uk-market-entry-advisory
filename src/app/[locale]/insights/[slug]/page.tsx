@@ -9,8 +9,8 @@ import Button from "@/components/ui/Button";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import {
-  getAllInsightSlugs,
-  getInsightArticle,
+  getAllPublishedInsightSlugs,
+  getPublishedInsightArticle,
   type Locale,
 } from "@/content/insights";
 
@@ -23,13 +23,13 @@ export const dynamicParams = false;
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
-    getAllInsightSlugs().map((slug) => ({ locale, slug })),
+    getAllPublishedInsightSlugs().map((slug) => ({ locale, slug })),
   );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
-  const article = getInsightArticle(locale as Locale, slug);
+  const article = getPublishedInsightArticle(locale as Locale, slug);
   if (!article) return {};
   return buildMetadata({
     locale,
@@ -43,8 +43,8 @@ export default async function InsightArticlePage({ params }: Props) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
 
-  const article = getInsightArticle(locale as Locale, slug);
-  if (!article) notFound();
+  const article = getPublishedInsightArticle(locale as Locale, slug);
+  if (!article || !article.body) notFound();
 
   const t = await getTranslations("InsightsPage");
 
@@ -77,34 +77,23 @@ export default async function InsightArticlePage({ params }: Props) {
 
       <Section spacing="default">
         <Container size="prose">
-          {article.body ? (
-            <div className="space-y-12">
-              {article.body.map((section) => (
-                <div key={section.heading}>
-                  <h2 className="font-display text-h3 text-primary-dark">
-                    {section.heading}
-                  </h2>
-                  {section.paragraphs.map((paragraph, index) => (
-                    <p
-                      key={index}
-                      className="mt-4 text-body-lg text-primary-dark/70"
-                    >
-                      {paragraph}
-                    </p>
-                  ))}
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div className="border-l-2 border-primary-dark/15 pl-6">
-              <p className="font-display text-h4 text-primary-dark">
-                {t("article.comingSoonTitle")}
-              </p>
-              <p className="mt-3 text-body-lg text-primary-dark/70">
-                {t("article.comingSoonBody")}
-              </p>
-            </div>
-          )}
+          <div className="space-y-12">
+            {article.body.map((section) => (
+              <div key={section.heading}>
+                <h2 className="font-display text-h3 text-primary-dark">
+                  {section.heading}
+                </h2>
+                {section.paragraphs.map((paragraph, index) => (
+                  <p
+                    key={index}
+                    className="mt-4 text-body-lg text-primary-dark/70"
+                  >
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+            ))}
+          </div>
         </Container>
       </Section>
 

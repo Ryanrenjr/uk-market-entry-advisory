@@ -44,7 +44,7 @@ export default function PhotoSection({
           priority={priority}
           sizes="100vw"
           style={{ objectPosition }}
-          className="object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.05]"
+          className="object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.05] motion-reduce:group-hover:scale-100"
         />
       </motion.div>
       <div
@@ -52,7 +52,7 @@ export default function PhotoSection({
         className="absolute inset-0 bg-gradient-to-t from-primary-dark/60 via-primary-dark/0 to-transparent transition-opacity duration-500 group-hover:from-primary-dark/45"
       />
       {caption && (
-        <p className="absolute bottom-8 left-6 text-eyebrow uppercase text-white transition-transform duration-500 group-hover:translate-x-1 sm:bottom-10 sm:left-8">
+        <p className="absolute bottom-8 left-6 text-eyebrow uppercase text-white transition-transform duration-500 group-hover:translate-x-1 motion-reduce:group-hover:translate-x-0 sm:bottom-10 sm:left-8">
           {caption}
         </p>
       )}

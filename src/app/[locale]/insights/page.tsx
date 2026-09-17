@@ -6,7 +6,7 @@ import PhotoSection from "@/components/ui/PhotoSection";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import InsightsExplorer from "@/components/insights/InsightsExplorer";
-import { getInsightArticles, type Locale } from "@/content/insights";
+import { getPublishedInsightArticles, type Locale } from "@/content/insights";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -28,7 +28,7 @@ export default async function InsightsPage({ params }: Props) {
   const tHero = await getTranslations("InsightsPage.hero");
   const tPhoto = await getTranslations("InsightsPage.cityPhoto");
   const tPhoto2 = await getTranslations("InsightsPage.cityPhoto2");
-  const articles = getInsightArticles(locale as Locale);
+  const articles = getPublishedInsightArticles(locale as Locale);
 
   return (
     <>

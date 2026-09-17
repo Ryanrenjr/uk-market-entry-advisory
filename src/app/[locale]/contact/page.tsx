@@ -25,6 +25,18 @@ export default async function ContactPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations("ContactPage");
 
+  const bodyLines = [
+    t("emailBody.company"),
+    t("emailBody.website"),
+    t("emailBody.productCategory"),
+    t("emailBody.currentMarkets"),
+    t("emailBody.expansionStage"),
+    t("emailBody.mainQuestion"),
+  ];
+  const mailtoHref = `mailto:${t("email")}?subject=${encodeURIComponent(
+    t("emailSubject"),
+  )}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
+
   return (
     <>
       <PagePhotoHero
@@ -35,7 +47,7 @@ export default async function ContactPage({ params }: Props) {
         photoAlt={t("cityPhoto.alt")}
         photoCaption={t("cityPhoto.caption")}
       >
-        <Button href={`mailto:${t("email")}`} variant="secondary">
+        <Button href={mailtoHref} variant="secondary">
           {t("emailCta")}
         </Button>
       </PagePhotoHero>

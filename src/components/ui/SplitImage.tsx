@@ -17,7 +17,7 @@ export default function SplitImage({ src, alt, caption, className = "" }: SplitI
         alt={alt}
         fill
         sizes="(min-width: 1024px) 40vw, 100vw"
-        className="object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.05]"
+        className="object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.05] motion-reduce:group-hover:scale-100"
       />
       {caption && (
         <>

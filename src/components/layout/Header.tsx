@@ -16,11 +16,23 @@ const navItems = [
   { key: "about", href: "/about" },
 ] as const;
 
+const MOBILE_NAV_ID = "mobile-navigation";
+
 export default function Header() {
   const t = useTranslations("Nav");
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  // Route changes should always close the mobile menu rather than leaving
+  // it open over the new page. This adjusts state directly during render
+  // (React's documented pattern for "reset state when a prop changes")
+  // instead of an effect, which avoids an extra post-commit render pass.
+  const [prevPathname, setPrevPathname] = useState(pathname);
+  if (pathname !== prevPathname) {
+    setPrevPathname(pathname);
+    setOpen(false);
+  }
 
   useEffect(() => {
     function onScroll() {
@@ -30,6 +42,29 @@ export default function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    if (!open) return;
+
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") setOpen(false);
+    }
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [open]);
+
+  // Lock background scroll while the mobile panel is open. Only the mobile
+  // toggle button can set `open`, and it's hidden at the lg breakpoint, so
+  // this never engages on desktop.
+  useEffect(() => {
+    if (!open) return;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [open]);
 
   const photoHeroRoutes = [
     "/",
@@ -119,13 +154,14 @@ export default function Header() {
           onClick={() => setOpen((value) => !value)}
           aria-label={open ? t("closeMenu") : t("openMenu")}
           aria-expanded={open}
+          aria-controls={MOBILE_NAV_ID}
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </Container>
 
       {open && (
-        <div className="border-t border-primary-dark/8 bg-background lg:hidden">
+        <div id={MOBILE_NAV_ID} className="border-t border-primary-dark/8 bg-background lg:hidden">
           <Container className="flex flex-col gap-4 py-6">
             {navItems.map((item) => (
               <Link

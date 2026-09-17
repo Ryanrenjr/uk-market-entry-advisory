@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "titleDefault": "London Thames International | UK Market Entry Advisory",
+    "titleDefault": "London Thames International | UK & Europe Market Entry Advisory",
     "titleTemplate": "%s | London Thames International",
-    "description": "We help Chinese businesses test, enter and establish in the UK."
+    "description": "We help Chinese businesses test, enter and establish in the UK and Europe."
   },
   "Nav": {
     "services": "Services",
@@ -21,7 +21,7 @@
     "zh": "中文"
   },
   "Footer": {
-    "tagline": "We help Chinese businesses test, enter and establish in the UK — with the clarity and rigour of a trusted market entry advisory.",
+    "tagline": "We help Chinese businesses test, enter and establish in the UK and Europe — with the clarity and rigour of a trusted market entry advisory.",
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "email": "londonthamesinternational@gmail.com",
@@ -29,13 +29,13 @@
     "rights": "© {year} London Thames International. All rights reserved."
   },
   "HomePage": {
-    "metaTitle": "Enter the UK Market with Clarity",
-    "metaDescription": "We help Chinese brands, manufacturers and businesses validate the UK market, design the right entry strategy, and establish their commercial presence in Britain.",
+    "metaTitle": "Enter the UK & European Market with Clarity",
+    "metaDescription": "We help Chinese brands, manufacturers and businesses validate UK and European markets, design the right entry strategy, and establish their commercial presence.",
     "hero": {
-      "eyebrow": "UK Market Entry · E-Commerce · Local Execution",
-      "titleLine1": "Enter the UK Market",
-      "titleLine2": "with Clarity.",
-      "description": "Most market-entry plans start by picking a channel. We start by asking whether the UK is the right market at all — then help you enter it properly.",
+      "eyebrow": "UK & Europe Market Entry · E-Commerce · Local Execution",
+      "titleLine1": "Enter UK & European",
+      "titleLine2": "Markets with Clarity.",
+      "description": "Most market-entry plans start by picking a channel. We start by asking whether the UK or Europe is the right market at all — then help you enter it properly.",
       "primaryCta": "Start Your UK Assessment",
       "secondaryCta": "Explore Our Services",
       "visual": {
@@ -110,7 +110,7 @@
           "item2": "Commercial expansion",
           "item3": "Business structure",
           "item4": "Team landing",
-          "item5": "Immigration pathway coordination"
+          "item5": "Regulated immigration adviser coordination"
         }
       }
     },
@@ -211,12 +211,12 @@
     }
   },
   "ServicesPage": {
-    "metaTitle": "UK Market Entry Services",
-    "metaDescription": "From deciding whether the UK is the right market to building a sustainable local presence.",
+    "metaTitle": "UK & Europe Market Entry Services",
+    "metaDescription": "From deciding whether the UK or Europe is the right market to building a sustainable local presence.",
     "hero": {
       "eyebrow": "Services",
-      "title": "UK Market Entry Services",
-      "subtitle": "From deciding whether the UK is the right market to building a sustainable local presence."
+      "title": "UK & Europe Market Entry Services",
+      "subtitle": "From deciding whether the UK or Europe is the right market to building a sustainable local presence."
     },
     "stagesNav": {
       "label": "Find your stage"
@@ -304,13 +304,13 @@
           "item2": "Commercial expansion needs",
           "item3": "Operational and reporting structure",
           "item4": "Team landing requirements",
-          "item5": "Immigration pathway options"
+          "item5": "Regulated immigration adviser coordination needs"
         },
         "deliverables": {
           "item1": "UK company setup support",
           "item2": "Business structure documentation",
           "item3": "Team landing plan",
-          "item4": "Coordination with immigration advisors, where relevant"
+          "item4": "Coordination with regulated immigration advisers, where relevant"
         },
         "next": "Ongoing advisory support as the business establishes and grows its UK operations."
       }
@@ -348,11 +348,11 @@
     }
   },
   "HowWeWorkPage": {
-    "metaTitle": "A Clearer Way to Enter the UK Market",
+    "metaTitle": "A Clearer Way to Enter the UK & European Market",
     "metaDescription": "We start by understanding the problem — not by selling a service.",
     "hero": {
       "eyebrow": "How We Work",
-      "title": "A clearer way to enter the UK market.",
+      "title": "A clearer way to enter the UK and European market.",
       "description": "We start by understanding the problem — not by selling a service."
     },
     "methodology": {
@@ -441,12 +441,12 @@
     }
   },
   "InsightsPage": {
-    "metaTitle": "UK Market Intelligence Hub",
-    "metaDescription": "Practical analysis for Chinese businesses exploring the UK market, cross-border commerce, and what it takes to operate here.",
+    "metaTitle": "UK & Europe Market Intelligence Hub",
+    "metaDescription": "Practical analysis for Chinese businesses exploring UK and European markets, cross-border commerce, and what it takes to operate there.",
     "hero": {
       "eyebrow": "Insights",
-      "title": "UK Market Intelligence Hub",
-      "description": "Practical analysis for Chinese businesses exploring the UK market, cross-border commerce, and what it takes to operate here."
+      "title": "UK & Europe Market Intelligence Hub",
+      "description": "Practical analysis for Chinese businesses exploring UK and European markets, cross-border commerce, and what it takes to operate there."
     },
     "cityPhoto": {
       "caption": "Bank of England, London",
@@ -484,12 +484,12 @@
     }
   },
   "AboutPage": {
-    "metaTitle": "Built Between China and the UK",
-    "metaDescription": "We help Chinese businesses make better decisions about entering and establishing in the UK.",
+    "metaTitle": "Built Between China, the UK and Europe",
+    "metaDescription": "We help Chinese businesses make better decisions about entering and establishing in the UK and Europe.",
     "hero": {
       "eyebrow": "About",
-      "title": "Built between China and the UK.",
-      "description": "We help Chinese businesses make better decisions about entering and establishing in the UK."
+      "title": "Built between China, the UK and Europe.",
+      "description": "We help Chinese businesses make better decisions about entering and establishing in the UK and Europe."
     },
     "perspective": {
       "title": "We start with the problem, not our services.",
@@ -560,9 +560,18 @@
   "ContactPage": {
     "eyebrow": "Contact",
     "title": "Start with a confidential conversation.",
-    "description": "Tell us about your product, brand or UK expansion plan, and our advisory team will get back to you directly.",
+    "description": "Tell us about your product, brand or UK/Europe expansion plan, and our advisory team will get back to you directly.",
     "email": "londonthamesinternational@gmail.com",
     "emailCta": "Email Us",
+    "emailSubject": "UK Market Entry Assessment",
+    "emailBody": {
+      "company": "Company / Brand:",
+      "website": "Website:",
+      "productCategory": "Product Category:",
+      "currentMarkets": "Current Markets:",
+      "expansionStage": "UK/Europe Expansion Stage:",
+      "mainQuestion": "Main Question:"
+    },
     "cityPhoto": {
       "caption": "Westminster, London",
       "alt": "The Houses of Parliament and Big Ben illuminated at dusk, reflected in the River Thames"

@@ -104,13 +104,30 @@ body {
    very slightly for :lang(zh) headings and body copy so Chinese reads with
    the same ease as the English. */
 :lang(zh) {
+  font-family:
+    var(--font-geist-sans),
+    "PingFang SC",
+    "Microsoft YaHei",
+    "Noto Sans SC",
+    "Hiragino Sans GB",
+    sans-serif;
   letter-spacing: 0;
 }
 
+/* Newsreader has no CJK glyphs at all, so .font-display headings need an
+   explicit Chinese-capable stack rather than silently falling through to
+   whatever default the browser picks. */
 :lang(zh) h1,
 :lang(zh) h2,
 :lang(zh) h3,
 :lang(zh) .font-display {
+  font-family:
+    "PingFang SC",
+    "Microsoft YaHei",
+    "Noto Sans SC",
+    "Hiragino Sans GB",
+    var(--font-geist-sans),
+    sans-serif;
   letter-spacing: 0;
   line-height: 1.35;
 }

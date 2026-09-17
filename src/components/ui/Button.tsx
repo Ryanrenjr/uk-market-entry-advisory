@@ -5,7 +5,7 @@ type Variant = "primary" | "secondary" | "outline" | "ghost";
 type Size = "sm" | "md" | "lg";
 
 const baseStyles =
-  "inline-flex items-center justify-center gap-2 rounded-full font-medium tracking-wide transition-all duration-200 ease-out hover:scale-[1.025] active:scale-[0.97] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-50 disabled:pointer-events-none disabled:hover:scale-100";
+  "inline-flex items-center justify-center gap-2 rounded-full font-medium tracking-wide transition-all duration-200 ease-out hover:scale-[1.025] active:scale-[0.97] motion-reduce:hover:scale-100 motion-reduce:active:scale-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-50 disabled:pointer-events-none disabled:hover:scale-100";
 
 const sizeStyles: Record<Size, string> = {
   sm: "px-4 py-2 text-xs",
@@ -37,7 +37,7 @@ interface ButtonProps {
   className?: string;
   href?: string;
   type?: "button" | "submit" | "reset";
-  onClick?: MouseEventHandler<HTMLButtonElement>;
+  onClick?: MouseEventHandler<HTMLButtonElement | HTMLAnchorElement>;
   target?: string;
   rel?: string;
 }
@@ -58,14 +58,14 @@ export default function Button({
   if (href) {
     if (isExternalHref(href)) {
       return (
-        <a href={href} className={classes} target={target} rel={rel}>
+        <a href={href} className={classes} target={target} rel={rel} onClick={onClick}>
           {children}
         </a>
       );
     }
 
     return (
-      <Link href={href} className={classes}>
+      <Link href={href} className={classes} onClick={onClick}>
         {children}
       </Link>
     );

@@ -8,6 +8,7 @@ import { routing } from "@/i18n/routing";
 import { siteUrl } from "@/lib/metadata";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import StructuredData from "@/components/seo/StructuredData";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -67,7 +68,7 @@ export async function generateMetadata({
       type: "website",
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title: t("titleDefault"),
       description: t("description"),
     },
@@ -90,6 +91,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       className={`${geistSans.variable} ${geistMono.variable} ${newsreader.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-background text-foreground">
+        <StructuredData locale={locale} />
         <a
           href="#main-content"
           className="fixed left-4 top-4 z-[100] -translate-y-24 rounded-full bg-primary-dark px-5 py-2.5 text-sm font-medium text-white transition-transform focus-visible:translate-y-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"

@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "titleDefault": "London Thames International | 英国市场进入与企业落地顾问",
+    "titleDefault": "London Thames International | 英国与欧洲市场进入顾问",
     "titleTemplate": "%s | London Thames International",
-    "description": "帮助中国企业验证英国市场，并真正落地英国。"
+    "description": "帮助中国企业验证英国与欧洲市场，并真正落地。"
   },
   "Nav": {
     "services": "服务",
@@ -21,7 +21,7 @@
     "zh": "中文"
   },
   "Footer": {
-    "tagline": "我们以严谨、专业的市场进入顾问方法，帮助中国企业验证英国市场，并真正落地英国。",
+    "tagline": "我们以严谨、专业的市场进入顾问方法，帮助中国企业验证英国与欧洲市场，并真正落地。",
     "quickLinks": "快速链接",
     "contact": "联系方式",
     "email": "londonthamesinternational@gmail.com",
@@ -29,13 +29,13 @@
     "rights": "© {year} London Thames International. 保留所有权利。"
   },
   "HomePage": {
-    "metaTitle": "进入英国市场，先把路走对",
-    "metaDescription": "我们帮助中国品牌、制造商和企业验证英国市场、设计进入路径，并协调电商、合规、公司及人员落地。",
+    "metaTitle": "进入英国与欧洲市场，先把路走对",
+    "metaDescription": "我们帮助中国品牌、制造商和企业验证英国与欧洲市场、设计进入路径，并协调电商、合规、公司及人员落地。",
     "hero": {
-      "eyebrow": "英国市场进入 · 电商出海 · 本地化执行",
-      "titleLine1": "进入英国市场，",
+      "eyebrow": "英国与欧洲市场进入 · 电商出海 · 本地化执行",
+      "titleLine1": "进入英国与欧洲市场，",
       "titleLine2": "先把路走对。",
-      "description": "很多入英计划，第一步就是选渠道。我们的第一步，是判断英国这个市场到底值不值得进——想清楚了，再谈怎么做。",
+      "description": "很多市场进入计划，第一步就是选渠道。我们的第一步，是判断英国或欧洲这个市场到底值不值得进——想清楚了，再谈怎么做。",
       "primaryCta": "开始英国市场诊断",
       "secondaryCta": "了解我们的服务",
       "visual": {
@@ -110,7 +110,7 @@
           "item2": "商业拓展",
           "item3": "公司架构设计",
           "item4": "团队落地",
-          "item5": "移民路径协调"
+          "item5": "受监管移民顾问协调"
         }
       }
     },
@@ -211,12 +211,12 @@
     }
   },
   "ServicesPage": {
-    "metaTitle": "英国市场进入与企业落地服务",
-    "metaDescription": "从判断英国是否是合适的市场，到建立可持续的本地业务。",
+    "metaTitle": "英国与欧洲市场进入与企业落地服务",
+    "metaDescription": "从判断英国或欧洲是否是合适的市场，到建立可持续的本地业务。",
     "hero": {
       "eyebrow": "服务",
-      "title": "英国市场进入与企业落地服务",
-      "subtitle": "从判断英国是否是合适的市场，到建立可持续的本地业务。"
+      "title": "英国与欧洲市场进入与企业落地服务",
+      "subtitle": "从判断英国或欧洲是否是合适的市场，到建立可持续的本地业务。"
     },
     "stagesNav": {
       "label": "找到你所在的阶段"
@@ -304,13 +304,13 @@
           "item2": "商业拓展需求",
           "item3": "运营与汇报架构",
           "item4": "团队落地需求",
-          "item5": "移民路径选项"
+          "item5": "受监管移民顾问协调需求"
         },
         "deliverables": {
           "item1": "英国公司注册支持",
           "item2": "公司架构文件",
           "item3": "团队落地方案",
-          "item4": "与移民顾问的协调（如适用）"
+          "item4": "如适用，协调受监管的移民顾问"
         },
         "next": "在企业于英国建立并发展业务的过程中，我们将提供持续的顾问支持。"
       }
@@ -348,11 +348,11 @@
     }
   },
   "HowWeWorkPage": {
-    "metaTitle": "用更清晰的方法进入英国市场",
+    "metaTitle": "用更清晰的方法进入英国与欧洲市场",
     "metaDescription": "我们从理解问题开始——而不是从推销服务开始。",
     "hero": {
       "eyebrow": "服务流程",
-      "title": "用更清晰的方法进入英国市场。",
+      "title": "用更清晰的方法进入英国与欧洲市场。",
       "description": "我们从理解问题开始——而不是从推销服务开始。"
     },
     "methodology": {
@@ -441,12 +441,12 @@
     }
   },
   "InsightsPage": {
-    "metaTitle": "英国市场洞察",
-    "metaDescription": "面向希望了解英国市场、跨境电商与英国企业运营的中国企业，提供务实的分析内容。",
+    "metaTitle": "英国与欧洲市场洞察",
+    "metaDescription": "面向希望了解英国与欧洲市场、跨境电商与海外企业运营的中国企业，提供务实的分析内容。",
     "hero": {
       "eyebrow": "洞察",
-      "title": "英国市场洞察",
-      "description": "面向希望了解英国市场、跨境电商与英国企业运营的中国企业，提供务实的分析内容。"
+      "title": "英国与欧洲市场洞察",
+      "description": "面向希望了解英国与欧洲市场、跨境电商与海外企业运营的中国企业，提供务实的分析内容。"
     },
     "cityPhoto": {
       "caption": "英国伦敦 · 英格兰银行",
@@ -484,12 +484,12 @@
     }
   },
   "AboutPage": {
-    "metaTitle": "连接中国企业与英国市场",
-    "metaDescription": "我们帮助中国企业更理性、更有效地进入并落地英国。",
+    "metaTitle": "连接中国企业、英国与欧洲市场",
+    "metaDescription": "我们帮助中国企业更理性、更有效地进入并落地英国与欧洲。",
     "hero": {
       "eyebrow": "关于我们",
-      "title": "连接中国企业与英国市场。",
-      "description": "我们帮助中国企业更理性、更有效地进入并落地英国。"
+      "title": "连接中国企业、英国与欧洲市场。",
+      "description": "我们帮助中国企业更理性、更有效地进入并落地英国与欧洲。"
     },
     "perspective": {
       "title": "我们从问题出发，而不是从服务出发。",
@@ -560,9 +560,18 @@
   "ContactPage": {
     "eyebrow": "联系我们",
     "title": "从一次保密沟通开始。",
-    "description": "告诉我们你的产品、品牌或英国拓展计划，我们的顾问团队会直接与你联系。",
+    "description": "告诉我们你的产品、品牌或英国/欧洲拓展计划，我们的顾问团队会直接与你联系。",
     "email": "londonthamesinternational@gmail.com",
     "emailCta": "发送邮件",
+    "emailSubject": "英国市场进入咨询",
+    "emailBody": {
+      "company": "公司/品牌：",
+      "website": "网站：",
+      "productCategory": "产品品类：",
+      "currentMarkets": "当前市场：",
+      "expansionStage": "英国/欧洲拓展阶段：",
+      "mainQuestion": "主要问题："
+    },
     "cityPhoto": {
       "caption": "英国伦敦 · 威斯敏斯特",
       "alt": "黄昏时分，英国国会大厦与大本钟在泰晤士河上的倒影"

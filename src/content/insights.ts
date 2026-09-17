@@ -10,6 +10,8 @@ export const insightCategories = [
 
 export type InsightCategory = (typeof insightCategories)[number];
 
+export type InsightStatus = "published" | "draft";
+
 interface LocalizedText {
   en: string;
   zh: string;
@@ -24,6 +26,11 @@ export interface InsightArticleData {
   slug: string;
   category: InsightCategory;
   readingTime: number;
+  status: InsightStatus;
+  /** ISO date (YYYY-MM-DD). Set only once the article is actually published. */
+  publishedAt?: string;
+  /** ISO date (YYYY-MM-DD). Set only when the article content is substantively revised. */
+  updatedAt?: string;
   title: LocalizedText;
   summary: LocalizedText;
   body?: LocalizedSection[];
@@ -33,6 +40,9 @@ export interface ResolvedInsightArticle {
   slug: string;
   category: InsightCategory;
   readingTime: number;
+  status: InsightStatus;
+  publishedAt?: string;
+  updatedAt?: string;
   title: string;
   summary: string;
   body?: { heading: string; paragraphs: string[] }[];
@@ -43,6 +53,8 @@ const articles: InsightArticleData[] = [
     slug: "validating-product-market-fit-before-entering-the-uk",
     category: "uk-market",
     readingTime: 6,
+    status: "published",
+    publishedAt: "2026-09-17",
     title: {
       en: "How to Validate Product-Market Fit Before Entering the UK",
       zh: "进入英国之前，如何验⁠证产品是否真的有市⁠场",
@@ -118,6 +130,7 @@ const articles: InsightArticleData[] = [
     slug: "amazon-uk-tiktok-shop-or-dtc-choosing-the-right-channel",
     category: "ecommerce",
     readingTime: 5,
+    status: "draft",
     title: {
       en: "Amazon UK, TikTok Shop or DTC: Choosing the Right Entry Channel",
       zh: "进入英国，Amazon、TikTok Shop还是独⁠立⁠站？",
@@ -131,6 +144,7 @@ const articles: InsightArticleData[] = [
     slug: "what-chinese-manufacturers-underestimate-about-the-uk-market",
     category: "uk-market",
     readingTime: 6,
+    status: "draft",
     title: {
       en: "What Chinese Manufacturers Often Underestimate About the UK Market",
       zh: "中国制造商进入英国最容易低估的几个问题",
@@ -144,6 +158,7 @@ const articles: InsightArticleData[] = [
     slug: "vat-eori-and-uk-market-entry",
     category: "compliance",
     readingTime: 7,
+    status: "draft",
     title: {
       en: "VAT, EORI and UK Market Entry: What Businesses Need to Understand",
       zh: "进入英国市场前，VAT与EORI应该怎么理解",
@@ -157,6 +172,7 @@ const articles: InsightArticleData[] = [
     slug: "when-does-a-chinese-business-need-a-uk-company",
     category: "business-setup",
     readingTime: 5,
+    status: "draft",
     title: {
       en: "When Does a Chinese Business Actually Need a UK Company?",
       zh: "中国企业什么时候真的需要英国公司？",
@@ -170,6 +186,7 @@ const articles: InsightArticleData[] = [
     slug: "why-we-prefer-a-30-day-market-test-before-scaling",
     category: "uk-market",
     readingTime: 5,
+    status: "draft",
     title: {
       en: "Why We Prefer a 30-Day Market Test Before Scaling",
       zh: "为什么我们建议先做30⁠天市场验证",
@@ -186,6 +203,9 @@ function resolve(article: InsightArticleData, locale: Locale): ResolvedInsightAr
     slug: article.slug,
     category: article.category,
     readingTime: article.readingTime,
+    status: article.status,
+    publishedAt: article.publishedAt,
+    updatedAt: article.updatedAt,
     title: article.title[locale],
     summary: article.summary[locale],
     body: article.body?.map((section) => ({
@@ -195,18 +215,22 @@ function resolve(article: InsightArticleData, locale: Locale): ResolvedInsightAr
   };
 }
 
-export function getAllInsightSlugs(): string[] {
-  return articles.map((article) => article.slug);
+function publishedOnly(list: InsightArticleData[]): InsightArticleData[] {
+  return list.filter((article) => article.status === "published");
 }
 
-export function getInsightArticles(locale: Locale): ResolvedInsightArticle[] {
-  return articles.map((article) => resolve(article, locale));
+export function getAllPublishedInsightSlugs(): string[] {
+  return publishedOnly(articles).map((article) => article.slug);
 }
 
-export function getInsightArticle(
+export function getPublishedInsightArticles(locale: Locale): ResolvedInsightArticle[] {
+  return publishedOnly(articles).map((article) => resolve(article, locale));
+}
+
+export function getPublishedInsightArticle(
   locale: Locale,
   slug: string,
 ): ResolvedInsightArticle | undefined {
-  const found = articles.find((article) => article.slug === slug);
+  const found = publishedOnly(articles).find((article) => article.slug === slug);
   return found ? resolve(found, locale) : undefined;
 }
