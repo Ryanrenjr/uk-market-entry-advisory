@@ -2,15 +2,18 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/metadata";
+import { formatArticleDate } from "@/lib/format";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import Tag from "@/components/ui/Tag";
+import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import {
   getAllPublishedInsightSlugs,
   getPublishedInsightArticle,
+  getRelatedInsightArticles,
   type Locale,
 } from "@/content/insights";
 
@@ -47,6 +50,7 @@ export default async function InsightArticlePage({ params }: Props) {
   if (!article || !article.body) notFound();
 
   const t = await getTranslations("InsightsPage");
+  const related = getRelatedInsightArticles(locale as Locale, slug);
 
   return (
     <>
@@ -62,6 +66,7 @@ export default async function InsightArticlePage({ params }: Props) {
           <div className="mt-6 flex items-center gap-3">
             <Tag tone="accent">{t(`categories.${article.category}`)}</Tag>
             <span className="text-caption text-primary-dark/60">
+              {article.publishedAt && `${formatArticleDate(article.publishedAt, locale as Locale)} · `}
               {t("card.readingTime", { minutes: article.readingTime })}
             </span>
           </div>
@@ -94,6 +99,40 @@ export default async function InsightArticlePage({ params }: Props) {
               </div>
             ))}
           </div>
+        </Container>
+      </Section>
+
+      {related.length > 0 && (
+        <Section spacing="default" border>
+          <Container>
+            <h2 className="font-display text-h3 text-primary-dark">
+              {t("article.relatedTitle")}
+            </h2>
+            <div className="mt-8 grid gap-6 sm:grid-cols-3">
+              {related.map((item) => (
+                <Link key={item.slug} href={`/insights/${item.slug}`}>
+                  <Card hover padding="sm" className="h-full">
+                    <Tag tone="accent">{t(`categories.${item.category}`)}</Tag>
+                    <h3 className="mt-4 font-display text-h4 text-primary-dark">
+                      {item.title}
+                    </h3>
+                    <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-accent">
+                      {t("card.readInsight")}
+                      <span aria-hidden>→</span>
+                    </span>
+                  </Card>
+                </Link>
+              ))}
+            </div>
+          </Container>
+        </Section>
+      )}
+
+      <Section spacing="tight">
+        <Container size="prose">
+          <p className="text-caption text-primary-dark/50">
+            {t("article.generalNote")}
+          </p>
         </Container>
       </Section>
 

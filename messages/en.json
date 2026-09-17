@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "titleDefault": "London Thames International | UK & Europe Market Entry Advisory",
+    "titleDefault": "London Thames International | UK Market Entry Advisory",
     "titleTemplate": "%s | London Thames International",
-    "description": "We help Chinese businesses test, enter and establish in the UK and Europe."
+    "description": "UK-based market entry advisory helping Chinese manufacturers and brands assess, test and establish in the UK, with selected European expansion support where relevant."
   },
   "Nav": {
     "services": "Services",
@@ -21,7 +21,7 @@
     "zh": "中文"
   },
   "Footer": {
-    "tagline": "We help Chinese businesses test, enter and establish in the UK and Europe — with the clarity and rigour of a trusted market entry advisory.",
+    "tagline": "UK-based market entry advisory for Chinese businesses — from market assessment and testing to local establishment, with selected European expansion support where relevant.",
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "email": "londonthamesinternational@gmail.com",
@@ -29,52 +29,52 @@
     "rights": "© {year} London Thames International. All rights reserved."
   },
   "HomePage": {
-    "metaTitle": "Enter the UK & European Market with Clarity",
-    "metaDescription": "We help Chinese brands, manufacturers and businesses validate UK and European markets, design the right entry strategy, and establish their commercial presence.",
+    "metaTitle": "UK Market Entry Advisory for Chinese Businesses",
+    "metaDescription": "UK-based advisory helping Chinese manufacturers and brands assess demand, plan market entry, test channels and establish operations in Britain.",
     "hero": {
-      "eyebrow": "UK & Europe Market Entry · E-Commerce · Local Execution",
-      "titleLine1": "Enter UK & European",
-      "titleLine2": "Markets with Clarity.",
-      "description": "Most market-entry plans start by picking a channel. We start by asking whether the UK or Europe is the right market at all — then help you enter it properly.",
+      "eyebrow": "UK Market Entry · E-Commerce · Local Establishment",
+      "titleLine1": "Enter the UK Market",
+      "titleLine2": "with Clarity.",
+      "description": "We help Chinese manufacturers and brands assess UK demand, choose the right route to market, test the opportunity and establish locally — before unnecessary investment is made.",
       "primaryCta": "Start Your UK Assessment",
       "secondaryCta": "Explore Our Services",
       "visual": {
         "origin": "China",
         "destination": "United Kingdom",
         "nodes": {
-          "marketValidation": "Market Validation",
-          "compliance": "Compliance",
-          "amazonUk": "Amazon UK",
-          "tiktokShop": "TikTok Shop",
-          "companySetup": "Company Setup",
-          "ukExpansion": "UK Expansion"
+          "marketValidation": "Market Assessment",
+          "compliance": "Compliance Review",
+          "amazonUk": "Channel Strategy",
+          "tiktokShop": "Market Test",
+          "companySetup": "Business Setup",
+          "ukExpansion": "UK Establishment"
         }
       }
     },
     "channels": {
-      "label": "Channels we work across",
+      "label": "Channels we assess and work across",
       "item1": "Amazon UK",
       "item2": "TikTok Shop",
       "item3": "eBay",
       "item4": "Direct-to-Consumer",
-      "item5": "Marketplaces"
+      "item5": "Marketplaces & Retail"
     },
     "problem": {
-      "title": "Entering the UK should not start with opening a store.",
-      "q1": "Is there actually a market for my product?",
-      "q2": "Which channel fits my business?",
-      "q3": "How should VAT, compliance and fulfilment be structured?",
-      "q4": "Do we need a UK company or team?",
+      "title": "Entering the UK should not begin with choosing a sales channel.",
+      "q1": "Is there enough UK demand for this product?",
+      "q2": "Which route to market fits our business?",
+      "q3": "Do the pricing, margins, compliance and fulfilment model work?",
+      "q4": "When do we actually need a UK company or local team?",
       "conclusion": "We assess first. Then we decide what to build."
     },
     "services": {
-      "title": "From market validation to UK establishment.",
+      "title": "Four stages from market question to UK operation.",
       "learnMore": "Learn more",
       "item1": {
         "number": "01",
-        "name": "UK Market Validation",
-        "description": "Market demand, competitors, pricing, channels, margins and compliance screening.",
-        "outcomeLabel": "Outcome",
+        "name": "UK Market Assessment",
+        "description": "Assess demand, competition, pricing, channel fit, landed economics and compliance exposure before committing significant resources.",
+        "outcomeLabel": "Decision",
         "outcomes": {
           "go": "GO",
           "testFirst": "TEST FIRST",
@@ -84,33 +84,33 @@
       "item2": {
         "number": "02",
         "name": "UK Market Entry Roadmap",
-        "description": "A structured plan covering every decision before you launch.",
+        "description": "Turn a positive market case into a sequenced plan for structure, channels, products, logistics, budget and resourcing.",
         "includes": {
           "item1": "Business structure",
           "item2": "VAT / EORI",
-          "item3": "Channels",
-          "item4": "SKU strategy",
+          "item3": "Channel strategy",
+          "item4": "SKU priorities",
           "item5": "Logistics",
           "item6": "Budget",
-          "item7": "People planning"
+          "item7": "Resourcing"
         }
       },
       "item3": {
         "number": "03",
         "name": "30-Day Market Test",
-        "description": "Use real market signals to decide whether the opportunity deserves further investment.",
+        "description": "Use a controlled real-world test to see what customers, channels and unit economics actually tell us before scaling.",
         "cta": "See the 30-Day Test"
       },
       "item4": {
         "number": "04",
-        "name": "Business & People Landing",
-        "description": "Establishing the legal, commercial and human foundation for a genuine UK presence.",
+        "name": "UK Business Establishment",
+        "description": "Build the local commercial and operating structure needed once the UK opportunity has been validated.",
         "includes": {
           "item1": "UK company setup",
-          "item2": "Commercial expansion",
-          "item3": "Business structure",
-          "item4": "Team landing",
-          "item5": "Regulated immigration adviser coordination"
+          "item2": "Operating structure",
+          "item3": "Commercial expansion",
+          "item4": "Local resourcing",
+          "item5": "Regulated adviser coordination"
         }
       }
     },
@@ -119,43 +119,43 @@
       "title": "Don't Guess. Test.",
       "weeks": {
         "week1": { "label": "Week 01", "title": "Market & Competitor Research" },
-        "week2": { "label": "Week 02", "title": "Pricing / Listing / Compliance Setup" },
-        "week3": { "label": "Week 03", "title": "Market Launch & Data Collection" },
+        "week2": { "label": "Week 02", "title": "Offer, Pricing & Compliance Setup" },
+        "week3": { "label": "Week 03", "title": "Controlled Launch & Data Collection" },
         "week4": { "label": "Week 04", "title": "Performance Review & Decision" }
       },
-      "receiveTitle": "You receive:",
+      "receiveTitle": "What you receive:",
       "receiveItems": {
-        "item1": "Market signals",
-        "item2": "Conversion insights",
-        "item3": "Cost structure",
-        "item4": "Risk assessment",
-        "item5": "Next-step recommendation"
+        "item1": "Market test report",
+        "item2": "Pricing & conversion findings",
+        "item3": "Unit economics review",
+        "item4": "Operational issues identified",
+        "item5": "Scale / adjust / stop recommendation"
       },
       "cta": "Start a UK Market Test"
     },
     "whyUs": {
-      "title": "Built differently from a traditional agency.",
+      "title": "Independent advice, grounded in the UK market.",
       "photoCaption": "Fenchurch Street, London",
       "photoAlt": "A City of London street leading toward 20 Fenchurch Street on a clear day",
       "item1": {
-        "title": "UK Based",
-        "description": "Based in the UK, close to the market, regulation and buyers we advise on."
+        "title": "UK Market Context",
+        "description": "Our recommendations are shaped by the market, regulation and commercial realities businesses face in the UK."
       },
       "item2": {
-        "title": "Data Driven",
-        "description": "Decisions are grounded in market data, not assumptions or trends."
+        "title": "Evidence-Led",
+        "description": "We separate assumptions from evidence and make the reasoning behind each recommendation visible."
       },
       "item3": {
-        "title": "Independent",
-        "description": "Not tied to any platform, agency network or fulfilment provider."
+        "title": "Independent Advice",
+        "description": "We are not tied to a marketplace, fulfilment provider or single execution model."
       },
       "item4": {
-        "title": "Cross-functional",
-        "description": "Market strategy, compliance, logistics and company set-up handled as one coordinated process."
+        "title": "Commercial + Operational",
+        "description": "Demand, margin, compliance and execution are considered together rather than as separate workstreams."
       },
       "item5": {
-        "title": "AI-enabled",
-        "description": "AI improves the speed and rigour of our research and workflow — the judgement stays with our advisors."
+        "title": "Specialist Coordination",
+        "description": "Where tax, legal, product compliance or immigration expertise is required, we coordinate the appropriate regulated or specialist professionals."
       }
     },
     "cityPhoto": {
@@ -163,156 +163,139 @@
       "alt": "Aerial view of the City of London skyline with the River Thames and passenger boats"
     },
     "europePhoto": {
-      "caption": "Amsterdam, Netherlands",
-      "alt": "Historic gabled canal houses in Amsterdam at golden hour"
+      "caption": "Tower Bridge, London",
+      "alt": "Tower Bridge silhouetted against a sunset sky over the River Thames"
     },
     "clientTypes": {
-      "title": "Built for businesses entering the UK.",
+      "title": "Built for Chinese businesses evaluating or entering the UK.",
       "item1": {
-        "title": "Chinese Manufacturers",
-        "description": "Testing UK demand before committing to channels, stock or infrastructure."
+        "title": "Manufacturers Testing Direct Market Entry",
+        "description": "Assess UK demand and economics before committing stock, channels or local infrastructure."
       },
       "item2": {
-        "title": "Brands Ready for International Expansion",
-        "description": "Bringing an established brand into the UK with the right structure from day one."
+        "title": "Established Brands Expanding Internationally",
+        "description": "Translate an existing brand into the UK with the right positioning, channel mix and operating structure."
       },
       "item3": {
-        "title": "Businesses Establishing a UK Presence",
-        "description": "Moving from market access to a genuine, compliant UK operation."
+        "title": "Businesses Building a UK Presence",
+        "description": "Move from cross-border selling to a more durable, compliant and locally supported UK operation."
       }
     },
     "insights": {
-      "title": "Market Intelligence",
-      "disclaimer": "Illustrative examples of the market intelligence we produce — not client case studies.",
-      "sampleLabel": "Sample",
-      "viewAll": "View all insights",
-      "item1": {
-        "tag": "Home & Living",
-        "title": "UK Market Entry Assessment",
-        "description": "Assessing demand, price positioning and competitive landscape for a home goods brand entering the UK."
-      },
-      "item2": {
-        "tag": "Beauty",
-        "title": "TikTok Shop Market Validation",
-        "description": "Validating TikTok Shop viability for a beauty brand's UK launch."
-      },
-      "item3": {
-        "tag": "Consumer Electronics",
-        "title": "Amazon UK Feasibility Study",
-        "description": "Evaluating Amazon UK feasibility for a consumer electronics product line."
-      }
+      "title": "Latest Insights",
+      "viewAll": "View all insights"
     },
     "finalCta": {
-      "titleLine1": "Before entering the UK,",
-      "titleLine2": "know whether you should.",
-      "description": "Tell us about your product, brand or UK expansion plan. We will help identify where you are and what the next logical step should be.",
+      "titleLine1": "Before committing to the UK,",
+      "titleLine2": "know what the opportunity really looks like.",
+      "description": "Tell us what you sell, where you are today and what you are trying to decide. We will help identify the most logical next step.",
       "primaryCta": "Start Your UK Assessment",
       "secondaryCta": "Contact Us"
     }
   },
   "ServicesPage": {
-    "metaTitle": "UK & Europe Market Entry Services",
-    "metaDescription": "From deciding whether the UK or Europe is the right market to building a sustainable local presence.",
+    "metaTitle": "UK Market Entry Services for Chinese Businesses",
+    "metaDescription": "UK market assessment, entry planning, controlled market testing and local business establishment for Chinese manufacturers and brands.",
     "hero": {
       "eyebrow": "Services",
-      "title": "UK & Europe Market Entry Services",
-      "subtitle": "From deciding whether the UK or Europe is the right market to building a sustainable local presence."
+      "title": "UK Market Entry Services",
+      "subtitle": "From answering whether the UK opportunity is commercially viable to testing it and building the local structure to support it."
     },
     "stagesNav": {
       "label": "Find your stage"
     },
     "stages": {
       "labels": {
-        "solves": "What it solves",
+        "solves": "The question",
         "who": "Who it is for",
-        "analyse": "What we analyse",
-        "deliverables": "Typical deliverables",
+        "analyse": "What we assess",
+        "deliverables": "What you receive",
         "next": "What happens next"
       },
       "item1": {
         "number": "01",
         "question": "Should we enter the UK?",
-        "name": "UK Market Validation",
-        "whatItSolves": "Chinese businesses often commit to channels or stock before knowing whether UK demand, pricing and competition actually support the move. This answers that question first.",
-        "whoItIsFor": "Manufacturers and brands considering the UK for the first time, without direct experience of the market.",
+        "name": "UK Market Assessment",
+        "whatItSolves": "Before stock, channels or local infrastructure are committed, we test whether the product has a commercially credible route into the UK.",
+        "whoItIsFor": "Chinese manufacturers and brands considering the UK for the first time, or revisiting an earlier market-entry assumption.",
         "analyse": {
           "item1": "Market demand",
-          "item2": "Competitor landscape",
+          "item2": "Competitive intensity",
           "item3": "Price positioning",
           "item4": "Channel fit",
-          "item5": "Margin structure",
+          "item5": "Landed economics & margin",
           "item6": "Regulatory & compliance exposure"
         },
         "deliverables": {
-          "item1": "Market validation report",
-          "item2": "GO / TEST FIRST / NO-GO recommendation",
-          "item3": "Channel and positioning notes"
+          "item1": "Market assessment report",
+          "item2": "GO / TEST FIRST / NO-GO view with rationale",
+          "item3": "Recommended channel and positioning direction"
         },
-        "next": "If the assessment supports moving forward, we move into the UK Market Entry Roadmap or a 30-Day Market Test, depending on how much certainty you already have."
+        "next": "A strong case moves into an entry roadmap. A mixed case is usually better tested in market before larger commitments are made."
       },
       "item2": {
         "number": "02",
         "question": "How should we enter?",
         "name": "UK Market Entry Roadmap",
-        "whatItSolves": "Once there is a case for entering, businesses need a coordinated plan — not a list of disconnected decisions made under pressure.",
-        "whoItIsFor": "Businesses that have decided to enter the UK and need a structured plan before committing budget and resource.",
+        "whatItSolves": "Once the opportunity is credible, the next risk is making disconnected decisions on company structure, products, channels, logistics and budget.",
+        "whoItIsFor": "Businesses preparing to enter the UK and needing a clear sequence of decisions before execution begins.",
         "analyse": {
           "item1": "Business structure options",
           "item2": "VAT & EORI requirements",
           "item3": "Channel strategy",
-          "item4": "SKU and product prioritisation",
+          "item4": "SKU and product priorities",
           "item5": "Logistics and fulfilment models",
           "item6": "Budget allocation",
           "item7": "People and resourcing needs"
         },
         "deliverables": {
-          "item1": "A sequenced entry roadmap",
-          "item2": "Structure and compliance recommendations",
-          "item3": "Channel and logistics plan",
-          "item4": "Budget framework"
+          "item1": "Sequenced UK entry roadmap",
+          "item2": "Structure and compliance action list",
+          "item3": "Channel, product and logistics plan",
+          "item4": "Budget and resourcing framework"
         },
-        "next": "The roadmap becomes the reference plan for execution — either through a 30-Day Market Test or direct entry, depending on risk appetite."
+        "next": "The roadmap becomes the working reference for a controlled market test or direct execution, depending on the level of remaining uncertainty."
       },
       "item3": {
         "number": "03",
-        "question": "Can we validate the opportunity?",
+        "question": "Can we prove the opportunity before scaling?",
         "name": "30-Day Market Test",
-        "whatItSolves": "Plans and research can only tell you so much. This tests the opportunity against real market behaviour before further investment.",
-        "whoItIsFor": "Businesses with a validated plan who want evidence — not assumptions — before scaling.",
+        "whatItSolves": "Research tells us what should happen. A controlled market test shows us what actually happens before larger inventory, marketing or infrastructure commitments are made.",
+        "whoItIsFor": "Businesses with a credible UK proposition that want real market evidence before scaling investment.",
         "analyse": {
-          "item1": "Live conversion and engagement data",
+          "item1": "Conversion and engagement signals",
           "item2": "Pricing response",
-          "item3": "Customer acquisition cost",
+          "item3": "Customer acquisition economics",
           "item4": "Early customer feedback",
           "item5": "Operational friction points"
         },
         "deliverables": {
-          "item1": "Weekly performance summaries",
-          "item2": "A consolidated market signal report",
-          "item3": "A clear next-step recommendation"
+          "item1": "Market test report and weekly performance view",
+          "item2": "Pricing, conversion and unit economics findings",
+          "item3": "Scale / adjust / stop recommendation"
         },
-        "next": "Results determine whether to scale the channel, adjust the approach, or pause before further investment."
+        "next": "The evidence determines whether to scale, adjust the proposition or pause before further investment."
       },
       "item4": {
         "number": "04",
         "question": "How do we establish locally?",
-        "name": "Business & People Landing",
-        "whatItSolves": "A genuine UK presence requires more than a company number — it requires the right structure, and in some cases, people on the ground.",
-        "whoItIsFor": "Businesses ready to commit to a lasting UK presence, commercially and operationally.",
+        "name": "UK Business Establishment",
+        "whatItSolves": "Once the market case is proven, a sustainable UK presence may require the right entity, operating structure, local resources and specialist professional support.",
+        "whoItIsFor": "Businesses moving from cross-border market entry toward a longer-term UK commercial and operating presence.",
         "analyse": {
           "item1": "Company structure and setup requirements",
-          "item2": "Commercial expansion needs",
-          "item3": "Operational and reporting structure",
-          "item4": "Team landing requirements",
-          "item5": "Regulated immigration adviser coordination needs"
+          "item2": "Operating and reporting structure",
+          "item3": "Commercial expansion needs",
+          "item4": "Local team and resourcing requirements",
+          "item5": "Need for regulated specialist advisers"
         },
         "deliverables": {
-          "item1": "UK company setup support",
-          "item2": "Business structure documentation",
-          "item3": "Team landing plan",
-          "item4": "Coordination with regulated immigration advisers, where relevant"
+          "item1": "UK company setup support, where required",
+          "item2": "Operating structure and implementation plan",
+          "item3": "Local resourcing plan",
+          "item4": "Coordination with regulated or specialist advisers where relevant"
         },
-        "next": "Ongoing advisory support as the business establishes and grows its UK operations."
+        "next": "Support can continue as the UK operation develops, with selected European expansion considered where it becomes commercially relevant."
       }
     },
     "cityPhoto": {
@@ -320,50 +303,50 @@
       "alt": "St Paul's Cathedral viewed from the Millennium Bridge at dusk"
     },
     "engagementFormats": {
-      "title": "Engagement Formats",
-      "intro": "How we work together, shaped by what you actually need.",
-      "photoCaption": "Product ready for UK market",
-      "photoAlt": "Rows of finished product ready for shipment, part of a client's range entering the UK market",
+      "title": "Ways to Work Together",
+      "intro": "The engagement format follows the question that needs answering — not the other way around.",
+      "photoCaption": "Product prepared for market entry",
+      "photoAlt": "Rows of finished products prepared for market entry",
       "item1": {
-        "name": "Diagnostic",
-        "description": "A focused, time-boxed assessment used to answer a specific question before deciding on next steps."
+        "name": "Assessment",
+        "description": "A focused, time-boxed piece of work used to answer a defined market-entry question."
       },
       "item2": {
         "name": "Project",
-        "description": "A defined piece of work with a clear scope and outcome, such as a roadmap or a company setup process."
+        "description": "A defined scope with clear outputs, such as an entry roadmap or local establishment project."
       },
       "item3": {
         "name": "Market Test",
-        "description": "A structured, time-boxed test used to validate real market response before further commitment."
+        "description": "A controlled real-world test used to reduce uncertainty before larger investment."
       },
       "item4": {
         "name": "Ongoing Advisory",
-        "description": "Continued support as a business operates and grows in the UK, adapted to its stage and needs."
+        "description": "Continued decision support as the UK operation develops and new commercial questions emerge."
       }
     },
     "finalCta": {
-      "title": "Not sure where to start?",
+      "title": "Not sure which stage you are at?",
       "subtitle": "Start with a UK Market Assessment.",
       "cta": "Start Your UK Assessment"
     }
   },
   "HowWeWorkPage": {
-    "metaTitle": "A Clearer Way to Enter the UK & European Market",
-    "metaDescription": "We start by understanding the problem — not by selling a service.",
+    "metaTitle": "How We Work | UK Market Entry Advisory",
+    "metaDescription": "A structured UK market-entry process: understand the business, assess the opportunity, design the route, test the market and decide what comes next.",
     "hero": {
       "eyebrow": "How We Work",
-      "title": "A clearer way to enter the UK and European market.",
-      "description": "We start by understanding the problem — not by selling a service."
+      "title": "A clearer way to make UK market-entry decisions.",
+      "description": "We reduce uncertainty in stages: understand the business, assess the opportunity, design the route, test what matters and then decide what deserves further investment."
     },
     "methodology": {
-      "title": "The process behind every recommendation.",
+      "title": "Five steps from assumption to decision.",
       "steps": {
         "item1": {
           "number": "01",
           "title": "Understand",
           "focus": {
             "item1": "Product",
-            "item2": "Current market",
+            "item2": "Current markets",
             "item3": "Business model",
             "item4": "Expansion objective"
           }
@@ -375,7 +358,7 @@
             "item1": "Demand",
             "item2": "Competition",
             "item3": "Pricing",
-            "item4": "Margins",
+            "item4": "Economics",
             "item5": "Compliance"
           }
         },
@@ -387,18 +370,18 @@
             "item2": "Business structure",
             "item3": "Operations",
             "item4": "Budget",
-            "item5": "People"
+            "item5": "Resourcing"
           }
         },
         "item4": {
           "number": "04",
           "title": "Test",
           "focus": {
-            "item1": "Small-scale launch",
+            "item1": "Controlled launch",
             "item2": "Market signals",
             "item3": "Conversion",
-            "item4": "Cost",
-            "item5": "Operational issues"
+            "item4": "Economics",
+            "item5": "Operational friction"
           }
         },
         "item5": {
@@ -414,11 +397,11 @@
       }
     },
     "principles": {
-      "title": "What guides every decision.",
+      "title": "The principles behind the process.",
       "item1": "Evidence before assumptions.",
       "item2": "Test before scale.",
       "item3": "Structure before execution.",
-      "item4": "Local context matters."
+      "item4": "Local context changes the answer."
     },
     "cityPhoto": {
       "caption": "Tower Bridge, London",
@@ -429,32 +412,32 @@
       "alt": "The Victorian ironwork roof of Liverpool Street Station as a train arrives"
     },
     "whatWeDontDo": {
-      "title": "What we don't do",
+      "title": "What we do not do",
       "item1": "Promise guaranteed sales.",
       "item2": "Recommend a market simply to sell a service.",
-      "item3": "Push clients into unnecessary infrastructure.",
-      "item4": "Treat every business with the same template."
+      "item3": "Push clients into infrastructure they do not yet need.",
+      "item4": "Force every business through the same route."
     },
     "finalCta": {
-      "title": "Let's assess your UK opportunity.",
+      "title": "Start with the decision you need to make.",
       "cta": "Start Your UK Assessment"
     }
   },
   "InsightsPage": {
-    "metaTitle": "UK & Europe Market Intelligence Hub",
-    "metaDescription": "Practical analysis for Chinese businesses exploring UK and European markets, cross-border commerce, and what it takes to operate there.",
+    "metaTitle": "UK Market Entry Insights for Chinese Businesses",
+    "metaDescription": "Practical analysis on UK market entry, ecommerce, compliance, business establishment and cross-border expansion for Chinese companies.",
     "hero": {
       "eyebrow": "Insights",
-      "title": "UK & Europe Market Intelligence Hub",
-      "description": "Practical analysis for Chinese businesses exploring UK and European markets, cross-border commerce, and what it takes to operate there."
+      "title": "Market Entry Insights",
+      "description": "Practical analysis on UK market entry, ecommerce, compliance and local establishment for Chinese businesses."
     },
     "cityPhoto": {
       "caption": "Bank of England, London",
       "alt": "The neoclassical facade of the Bank of England in the City of London"
     },
     "cityPhoto2": {
-      "caption": "Analysing the UK market",
-      "alt": "Reviewing UK marketplace data and category analysis ahead of a client's market entry"
+      "caption": "UK market analysis",
+      "alt": "Reviewing marketplace and category data as part of a UK market-entry assessment"
     },
     "toolbar": {
       "searchPlaceholder": "Search insights",
@@ -466,64 +449,64 @@
       "ecommerce": "E-commerce",
       "compliance": "Compliance",
       "business-setup": "Business Setup",
-      "people-mobility": "People & Mobility"
+      "people-mobility": "Team & People"
     },
     "card": {
       "readingTime": "{minutes} min read",
       "readInsight": "Read insight"
     },
     "empty": {
-      "title": "More insights in this category are coming soon."
+      "title": "More analysis in this category is coming soon."
     },
     "article": {
       "back": "All Insights",
-      "comingSoonTitle": "Full analysis in progress.",
-      "comingSoonBody": "We're preparing the full analysis for this topic. The summary above reflects the core of our current thinking — or get in touch to discuss it directly.",
+      "relatedTitle": "Related Insights",
+      "generalNote": "This article provides general business information only. Regulatory, tax and immigration requirements can vary by product, transaction structure and individual circumstances. Where specialist advice is required, it should be provided by an appropriately qualified or regulated professional.",
       "ctaTitle": "Considering the UK?",
       "ctaButton": "Start Your UK Assessment"
     }
   },
   "AboutPage": {
-    "metaTitle": "Built Between China, the UK and Europe",
-    "metaDescription": "We help Chinese businesses make better decisions about entering and establishing in the UK and Europe.",
+    "metaTitle": "About | UK Market Entry Advisory",
+    "metaDescription": "A UK-based advisory helping Chinese businesses make better decisions about UK market entry, testing and local establishment, with selected European expansion support where relevant.",
     "hero": {
       "eyebrow": "About",
-      "title": "Built between China, the UK and Europe.",
-      "description": "We help Chinese businesses make better decisions about entering and establishing in the UK and Europe."
+      "title": "Built between China and the UK.",
+      "description": "We help Chinese businesses make commercially grounded decisions about entering and establishing in the UK, and support selected European expansion where it becomes relevant."
     },
     "perspective": {
-      "title": "We start with the problem, not our services.",
-      "body1": "Many market entry providers work outward from what they already offer — a warehouse operator sells fulfilment, an agency sells channel management, a formation service sells company registration. Each may be the right answer for some businesses. It is rarely the first question worth asking.",
-      "body2": "We start differently: understanding what a business actually needs, then assembling the right combination of expertise — rather than defaulting to whatever happens to already be on offer.",
+      "title": "The strategy should come before the service.",
+      "body1": "Market-entry providers often begin with the service they already sell: fulfilment, channel management, company formation or something else. Those services may eventually be useful, but they should not determine the strategy.",
+      "body2": "We begin with the commercial question, identify what the business actually needs, and then bring together the appropriate expertise for the job.",
       "photoCaption": "Frankfurt, Germany",
-      "photoAlt": "The Frankfurt skyline across the Main river, Germany's financial centre"
+      "photoAlt": "The Frankfurt skyline across the Main River, Germany's financial centre"
     },
     "different": {
-      "title": "What makes us different.",
+      "title": "How we approach the work.",
       "item1": {
-        "title": "UK market context",
-        "description": "Judgement informed by operating inside the UK market, not observing it from a distance."
+        "title": "UK Market Context",
+        "description": "Recommendations shaped by UK commercial conditions, regulation and customer expectations rather than assumptions from abroad."
       },
       "item2": {
-        "title": "Cross-border understanding",
-        "description": "Fluent in both how Chinese businesses operate and how the UK market actually works."
+        "title": "China-to-UK Understanding",
+        "description": "We account for how Chinese manufacturers and brands actually operate, then translate that reality into a workable UK approach."
       },
       "item3": {
-        "title": "Commercial + operational thinking",
-        "description": "Strategy that accounts for how a business will actually run, not just how it looks on paper."
+        "title": "Commercial + Operational Thinking",
+        "description": "A strategy is only useful if pricing, margin, compliance, logistics and execution can work together in practice."
       },
       "item4": {
-        "title": "Business & people landing perspective",
-        "description": "A view that extends beyond market entry to the structure and people needed to sustain it."
+        "title": "Independent Advice",
+        "description": "The recommendation is not determined by a marketplace, logistics provider or service we need to sell."
       },
       "item5": {
-        "title": "Technology-enabled research",
-        "description": "Research and analysis sharpened by technology — without treating technology as the product."
+        "title": "Technology-Enabled Research",
+        "description": "Technology improves research speed and consistency; commercial judgement and accountability remain with the advisory team."
       }
     },
     "network": {
-      "title": "A specialist network model.",
-      "description": "We work through a specialist network model, coordinating relevant expertise across market research, ecommerce, compliance, accounting, logistics and business establishment.",
+      "title": "A coordinated specialist network.",
+      "description": "We remain the central point of coordination. Where a project requires expertise outside our own scope, we bring in the appropriate specialists across market research, ecommerce, compliance, accounting, logistics and business establishment, including regulated professionals where required.",
       "domains": {
         "item1": "Market research",
         "item2": "Ecommerce",
@@ -533,7 +516,7 @@
         "item6": "Business establishment"
       },
       "photoCaption": "Kings House, London",
-      "photoAlt": "A lounge area inside our London office, with a digital information display"
+      "photoAlt": "Lounge area at Kings House, London, with a digital information display"
     },
     "cityPhoto": {
       "caption": "London",
@@ -541,36 +524,36 @@
     },
     "factoryPhoto": {
       "caption": "Factory visit, China",
-      "alt": "Walking a client's factory floor in China as part of an on-the-ground product and supplier review"
+      "alt": "Factory floor visit in China during an on-site product and supplier review"
     },
     "principles": {
-      "title": "What we hold to.",
-      "item1": "Clarity",
-      "item2": "Independence",
-      "item3": "Evidence",
-      "item4": "Practicality",
-      "item5": "Long-term thinking"
+      "title": "What clients can expect.",
+      "item1": "A clear recommendation",
+      "item2": "The evidence behind it",
+      "item3": "No platform bias",
+      "item4": "Specialists when needed",
+      "item5": "A practical next step"
     },
     "finalCta": {
-      "title": "Thinking about the UK?",
-      "subtitle": "Let's start with the right questions.",
+      "title": "Considering the UK?",
+      "subtitle": "Start with the decision in front of you.",
       "cta": "Start Your UK Assessment"
     }
   },
   "ContactPage": {
     "eyebrow": "Contact",
-    "title": "Start with a confidential conversation.",
-    "description": "Tell us about your product, brand or UK/Europe expansion plan, and our advisory team will get back to you directly.",
+    "title": "Tell us what you are trying to solve.",
+    "description": "Whether you are assessing the UK opportunity, preparing to launch or already operating here, tell us where you are and what decision you need to make. We will review the context and suggest the most logical next step.",
     "email": "londonthamesinternational@gmail.com",
-    "emailCta": "Email Us",
-    "emailSubject": "UK Market Entry Assessment",
+    "emailCta": "Tell Us About Your Business",
+    "emailSubject": "UK Market Entry Enquiry",
     "emailBody": {
       "company": "Company / Brand:",
       "website": "Website:",
       "productCategory": "Product Category:",
       "currentMarkets": "Current Markets:",
-      "expansionStage": "UK/Europe Expansion Stage:",
-      "mainQuestion": "Main Question:"
+      "expansionStage": "UK Expansion Stage:",
+      "mainQuestion": "Main Question / Decision to Make:"
     },
     "cityPhoto": {
       "caption": "Westminster, London",
@@ -578,13 +561,13 @@
     },
     "cityPhoto2": {
       "caption": "Kings House, London",
-      "alt": "The lobby of our London office building"
+      "alt": "The lobby of Kings House in London"
     },
     "officePhotoExterior": {
       "alt": "The entrance to Kings House at 174 Hammersmith Road, London"
     },
     "officePhotoLounge": {
-      "alt": "A lounge area inside our London office"
+      "alt": "Lounge and meeting area at Kings House, London"
     },
     "officeAddress": "Kings House, 174 Hammersmith Rd, London W6 7JP"
   }

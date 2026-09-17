@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/metadata";
+import type { Locale } from "@/content/insights";
 import PhotoSection from "@/components/ui/PhotoSection";
 import Marquee from "@/components/ui/Marquee";
 import HeroSection from "@/components/home/HeroSection";
@@ -55,12 +56,11 @@ export default async function HomePage({ params }: Props) {
       <WhyUsSection />
       <ClientTypesSection />
       <PhotoSection
-        src="/images/europe-amsterdam-canal.jpg"
+        src="/images/london-tower-bridge-sunset.jpg"
         alt={tEuropePhoto("alt")}
         caption={tEuropePhoto("caption")}
-        objectPosition="center 55%"
       />
-      <InsightsSection />
+      <InsightsSection locale={locale as Locale} />
       <FinalCtaSection />
     </>
   );

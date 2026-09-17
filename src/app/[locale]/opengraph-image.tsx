@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { routing } from "@/i18n/routing";
 
-export const alt = "London Thames International — UK & Europe Market Entry Advisory";
+export const alt = "London Thames International — UK Market Entry Advisory";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -71,7 +71,7 @@ export default async function Image() {
               maxWidth: 880,
             }}
           >
-            UK &amp; Europe Market Entry Advisory
+            UK Market Entry Advisory
           </span>
           <span
             style={{

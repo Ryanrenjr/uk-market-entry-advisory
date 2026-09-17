@@ -1,18 +1,32 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Search } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import { insightCategories, type ResolvedInsightArticle } from "@/content/insights";
+import {
+  insightCategories,
+  type Locale,
+  type ResolvedInsightArticle,
+} from "@/content/insights";
+import { formatArticleDate } from "@/lib/format";
 import Tag from "@/components/ui/Tag";
 
 interface InsightsExplorerProps {
   articles: ResolvedInsightArticle[];
 }
 
+function articleSearchText(article: ResolvedInsightArticle): string {
+  const bodyText =
+    article.body
+      ?.flatMap((section) => [section.heading, ...section.paragraphs])
+      .join(" ") ?? "";
+  return `${article.title} ${article.summary} ${bodyText}`.toLowerCase();
+}
+
 export default function InsightsExplorer({ articles }: InsightsExplorerProps) {
   const t = useTranslations("InsightsPage");
+  const locale = useLocale() as Locale;
   const [query, setQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
@@ -22,9 +36,7 @@ export default function InsightsExplorer({ articles }: InsightsExplorerProps) {
       const matchesCategory =
         !activeCategory || article.category === activeCategory;
       const matchesQuery =
-        !normalizedQuery ||
-        article.title.toLowerCase().includes(normalizedQuery) ||
-        article.summary.toLowerCase().includes(normalizedQuery);
+        !normalizedQuery || articleSearchText(article).includes(normalizedQuery);
       return matchesCategory && matchesQuery;
     });
   }, [articles, activeCategory, query]);
@@ -92,9 +104,12 @@ export default function InsightsExplorer({ articles }: InsightsExplorerProps) {
             >
               <div className="lg:col-span-3">
                 <Tag tone="accent">{t(`categories.${article.category}`)}</Tag>
-                <p className="mt-3 text-caption text-primary-dark/60">
-                  {t("card.readingTime", { minutes: article.readingTime })}
-                </p>
+                {article.publishedAt && (
+                  <p className="mt-3 text-caption text-primary-dark/60">
+                    {formatArticleDate(article.publishedAt, locale)} ·{" "}
+                    {t("card.readingTime", { minutes: article.readingTime })}
+                  </p>
+                )}
               </div>
               <div className="lg:col-span-9">
                 <h2 className="font-display text-h3 text-primary-dark transition-colors duration-200 group-hover:text-accent">
